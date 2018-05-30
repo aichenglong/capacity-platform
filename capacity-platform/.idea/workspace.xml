@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="048b857b-c62f-4224-91d1-0025a9314949" name="Default" comment="" />
+    <list default="true" id="048b857b-c62f-4224-91d1-0025a9314949" name="Default" comment="初始化">
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../capacity-common/target/" />
     <ignored path="$PROJECT_DIR$/../capacity-system/target/" />
@@ -104,7 +109,7 @@
         <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysUser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -112,7 +117,7 @@
       <file leaf-file-name="SysUserMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysUserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="187">
               <caret line="11" column="64" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -136,7 +141,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -239,6 +244,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,8 +257,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -265,7 +270,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -377,6 +382,7 @@
       <workItem from="1527254598990" duration="7073000" />
       <workItem from="1527317707865" duration="2604000" />
       <workItem from="1527689992984" duration="767000" />
+      <workItem from="1527692197038" duration="546000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1527690132188</created>
@@ -385,11 +391,18 @@
       <option name="project" value="LOCAL" />
       <updated>1527690132188</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="初始化">
+      <created>1527692237833</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1527692237833</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43870000" />
+    <option name="totallyTimeSpent" value="44416000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -416,7 +429,7 @@
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32960895" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25703254" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2597904" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" weight="0.32984003" />
@@ -446,6 +459,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="初始化" />
     <option name="LAST_COMMIT_MESSAGE" value="初始化" />
   </component>
@@ -639,7 +655,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysUserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="187">
           <caret line="11" column="64" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -692,7 +708,7 @@
     <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
         </state>
       </provider>
     </entry>
