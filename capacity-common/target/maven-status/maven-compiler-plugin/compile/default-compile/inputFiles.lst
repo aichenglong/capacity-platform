@@ -1,0 +1,16 @@
+/home/icl/IdeaProjects/capacity-platform/capacity-common/src/main/java/com/capacity/platform/common/service/impl/AbstractService.java
+/home/icl/IdeaProjects/capacity-platform/capacity-common/src/main/java/com/capacity/platform/common/service/impl/AbstractBaseServiceImpl.java
+/home/icl/IdeaProjects/capacity-platform/capacity-common/src/main/java/com/capacity/platform/util/HttpServertUtil.java
+/home/icl/IdeaProjects/capacity-platform/capacity-common/src/main/java/com/capacity/platform/common/exception/ServiceException.java
+/home/icl/IdeaProjects/capacity-platform/capacity-common/src/main/java/com/capacity/platform/common/service/PageBaseService.java
+/home/icl/IdeaProjects/capacity-platform/capacity-common/src/main/java/com/capacity/platform/common/result/ResultGenerator.java
+/home/icl/IdeaProjects/capacity-platform/capacity-common/src/main/java/com/capacity/platform/util/Digests.java
+/home/icl/IdeaProjects/capacity-platform/capacity-common/src/main/java/com/capacity/platform/common/entity/BaseEntity.java
+/home/icl/IdeaProjects/capacity-platform/capacity-common/src/main/java/com/capacity/platform/util/Exceptions.java
+/home/icl/IdeaProjects/capacity-platform/capacity-common/src/main/java/com/capacity/platform/common/service/BaseService.java
+/home/icl/IdeaProjects/capacity-platform/capacity-common/src/main/java/com/capacity/platform/util/StringUtils.java
+/home/icl/IdeaProjects/capacity-platform/capacity-common/src/main/java/com/capacity/platform/common/service/impl/AbstractPageBaseService.java
+/home/icl/IdeaProjects/capacity-platform/capacity-common/src/main/java/com/capacity/platform/common/result/ResultCode.java
+/home/icl/IdeaProjects/capacity-platform/capacity-common/src/main/java/com/capacity/platform/util/Encodes.java
+/home/icl/IdeaProjects/capacity-platform/capacity-common/src/main/java/com/capacity/platform/common/mapper/BaseMapper.java
+/home/icl/IdeaProjects/capacity-platform/capacity-common/src/main/java/com/capacity/platform/common/result/Result.java

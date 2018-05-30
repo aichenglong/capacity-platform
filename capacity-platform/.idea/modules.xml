@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../capacity-common/capacity-common.iml" filepath="$PROJECT_DIR$/../capacity-common/capacity-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/capacity-platform.iml" filepath="$PROJECT_DIR$/capacity-platform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../capacity-system/capacity-system.iml" filepath="$PROJECT_DIR$/../capacity-system/capacity-system.iml" />
+    </modules>
+  </component>
+</project>
