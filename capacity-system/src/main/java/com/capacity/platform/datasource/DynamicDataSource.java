@@ -1,4 +1,4 @@
-package com.capacity.platform.security.config;
+package com.capacity.platform.datasource;
 
 import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;
 import org.springframework.lang.Nullable;

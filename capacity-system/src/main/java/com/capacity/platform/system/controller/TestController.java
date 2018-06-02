@@ -5,6 +5,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
@@ -29,8 +30,8 @@ public class TestController {
      * 通过id进行查询
      * @return
      */
-    @RequestMapping(value = "/find/{id}")
-    public String fingTestById(@PathVariable Integer id){
+    @RequestMapping(value = "/find/{id}",method = RequestMethod.GET)
+    public String findTestById(@PathVariable Integer id){
 
         System.out.println(id);
         return testService.findTestById(id).toString();
@@ -40,7 +41,7 @@ public class TestController {
      * 添加
      * @return
      */
-    @RequestMapping(value = "/add")
+    @RequestMapping(value = "/add",method = RequestMethod.POST)
     public String  addTest(){
         Test test = new Test();
         int randomNum = new Random(10).nextInt();
@@ -60,7 +61,7 @@ public class TestController {
      * 通过id删除
      * @return
      */
-    @RequestMapping(value = "/delete")
+    @RequestMapping(value = "/delete",method = RequestMethod.DELETE)
     public String  deleteTestById(){
 
         int result= testService.deleteById(5);
@@ -76,7 +77,7 @@ public class TestController {
      * 通过id更新
      * @return
      */
-    @RequestMapping(value = "/update")
+    @RequestMapping(value = "/update",method = RequestMethod.PUT)
     public String  updateTestById(){
         Test test = new Test();
         test.setId(6);
@@ -95,7 +96,7 @@ public class TestController {
      * 通过名字进行模糊查询
      * @return
      */
-    @RequestMapping(value = "/findname")
+    @RequestMapping(value = "/findname",method = RequestMethod.GET)
     public String  findByName(){
         List<Test> result= testService.findByName("jack");
         System.out.println("updateTestById result ="+result.toString());

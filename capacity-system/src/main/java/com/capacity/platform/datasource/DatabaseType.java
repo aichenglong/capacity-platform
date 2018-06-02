@@ -1,4 +1,4 @@
-package com.capacity.platform.security.config;
+package com.capacity.platform.datasource;
 
 
 /**
