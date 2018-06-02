@@ -11,9 +11,12 @@ import javax.annotation.Resource;
 import java.util.List;
 import java.util.Random;
 
+
 /**
- * @author huangqingshi
- * @Date 2018.04.11
+ * Author: icl
+ * Date:2018/06/02
+ * Description: 使用DatabaseContextHolder获取当前线程的DatabaseType
+ * Created by icl on 2018/06/02.
  */
 @RestController
 public class TestController {

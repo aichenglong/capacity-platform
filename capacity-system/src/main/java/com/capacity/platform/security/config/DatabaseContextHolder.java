@@ -1,10 +1,11 @@
 package com.capacity.platform.security.config;
 
 /**
- * 保存一个线程安全的DatabaseType容器
- *
- * 用于保存数据源类型
- *
+ * Author: icl
+ * Date:2018/06/02
+ * Description: 保存一个线程安全的DatabaseType容器
+ *          用于保存数据源类型
+ * Created by icl on 2018/06/02.
  */
 public class DatabaseContextHolder {
     private static final ThreadLocal<DatabaseType> contextHolder = new ThreadLocal<>();

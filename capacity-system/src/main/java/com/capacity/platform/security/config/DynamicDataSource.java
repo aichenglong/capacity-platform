@@ -8,10 +8,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+
 /**
- * 使用DatabaseContextHolder获取当前线程的DatabaseType
- *
- *
+ * Author: icl
+ * Date:2018/06/02
+ * Description: 使用DatabaseContextHolder获取当前线程的DatabaseType
+ * Created by icl on 2018/06/02.
  */
 public class DynamicDataSource extends AbstractRoutingDataSource {
 

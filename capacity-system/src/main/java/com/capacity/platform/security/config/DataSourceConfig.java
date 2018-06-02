@@ -25,7 +25,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 2018/1/15 18:46
+ * Author: icl
+ * Date:2018/06/02
+ * Description:
+ * Created by icl on 2018/06/02.
  */
 @Configuration
 @MapperScan("com.capacity.platform.system.mapper")

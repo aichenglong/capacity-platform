@@ -12,10 +12,11 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-/**
- * 动态处理数据源，根据命名区分
- *
- *
+ /**
+ * Author: icl
+ * Date:2018/06/02
+ * Description: 动态处理数据源，根据命名区分
+ * Created by icl on 2018/06/02.
  */
 @Aspect
 @Component

@@ -1,9 +1,11 @@
 package com.capacity.platform.security.config;
 
+
 /**
- * 列出数据源类型
- *
- *
+ * Author: icl
+ * Date:2018/06/02
+ * Description: 列出数据源类型
+ * Created by icl on 2018/06/02.
  */
 public enum DatabaseType {
     master("write"), slave("read");
