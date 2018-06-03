@@ -24,7 +24,7 @@ public class BaseEntity implements java.io.Serializable {
     /**
      * 修改时间
      */
-    private Date modfiyeDate;
+    private Date modifyDate;
 
     /**
      * 修改用户
@@ -47,12 +47,12 @@ public class BaseEntity implements java.io.Serializable {
         this.createDate = createDate;
     }
 
-    public Date getModfiyeDate() {
-        return modfiyeDate;
+    public Date getModifyDate() {
+        return modifyDate;
     }
 
-    public void setModfiyeDate(Date modfiyeDate) {
-        this.modfiyeDate = modfiyeDate;
+    public void setModifyDate(Date modifyDate) {
+        this.modifyDate = modifyDate;
     }
 
     public Date getModifyUser() {
