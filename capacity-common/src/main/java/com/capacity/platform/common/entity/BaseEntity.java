@@ -10,43 +10,56 @@ import java.util.Date;
  */
 public class BaseEntity implements java.io.Serializable {
 
-//    private String uuid;
-//
-//    private String userId;
-//
-//    private Date createDate;
-//
-//    private Date updateDate;
-//
-//    public String getUuid() {
-//        return uuid;
-//    }
-//
-//    public void setUuid(String uuid) {
-//        this.uuid = uuid;
-//    }
-//
-//    public String getUserId() {
-//        return userId;
-//    }
-//
-//    public void setUserId(String userId) {
-//        this.userId = userId;
-//    }
-//
-//    public Date getCreateDate() {
-//        return createDate;
-//    }
-//
-//    public void setCreateDate(Date createDate) {
-//        this.createDate = createDate;
-//    }
-//
-//    public Date getUpdateDate() {
-//        return updateDate;
-//    }
-//
-//    public void setUpdateDate(Date updateDate) {
-//        this.updateDate = updateDate;
-//    }
+
+    /**
+     * 创建用户
+     */
+    private String createUser;
+
+    /**
+     * 创建时间
+     */
+    private Date createDate;
+
+    /**
+     * 修改时间
+     */
+    private Date modfiyeDate;
+
+    /**
+     * 修改用户
+     */
+    private Date modifyUser;
+
+    public String getCreateUser() {
+        return createUser;
+    }
+
+    public void setCreateUser(String createUser) {
+        this.createUser = createUser;
+    }
+
+    public Date getCreateDate() {
+        return createDate;
+    }
+
+    public void setCreateDate(Date createDate) {
+        this.createDate = createDate;
+    }
+
+    public Date getModfiyeDate() {
+        return modfiyeDate;
+    }
+
+    public void setModfiyeDate(Date modfiyeDate) {
+        this.modfiyeDate = modfiyeDate;
+    }
+
+    public Date getModifyUser() {
+        return modifyUser;
+    }
+
+    public void setModifyUser(Date modifyUser) {
+        this.modifyUser = modifyUser;
+    }
 }

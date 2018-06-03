@@ -8,6 +8,7 @@ package com.capacity.platform.datasource;
  * Created by icl on 2018/06/02.
  */
 public enum DatabaseType {
+
     master("write"), slave("read");
 
 

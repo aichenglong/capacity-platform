@@ -8,6 +8,7 @@ package com.capacity.platform.datasource;
  * Created by icl on 2018/06/02.
  */
 public class DatabaseContextHolder {
+
     private static final ThreadLocal<DatabaseType> contextHolder = new ThreadLocal<>();
 
     public static void setDatabaseType(DatabaseType type) {
