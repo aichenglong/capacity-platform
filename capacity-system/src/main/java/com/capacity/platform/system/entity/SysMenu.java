@@ -1,9 +1,9 @@
 package com.capacity.platform.system.entity;
 
 import com.capacity.platform.common.entity.BaseEntity;
+import io.swagger.annotations.ApiModelProperty;
 
 import java.io.Serializable;
-import java.util.Date;
 
 /**
  * Author icl
@@ -13,41 +13,50 @@ import java.util.Date;
  */
 public class SysMenu extends BaseEntity implements Serializable {
 
+
+    @ApiModelProperty("主键")
     private String id;
 
     /**
      * 菜单名称
      */
+    @ApiModelProperty("菜单名称")
     private String name;
 
     /**
      * 菜单地址
      */
+    @ApiModelProperty("菜单地址")
     private String href;
 
     /**
      * 菜单图标
      */
+    @ApiModelProperty("菜单图标")
     private String icon;
 
     /**
      * 父菜单Id
      */
+    @ApiModelProperty("父菜单ID")
     private String parentId;
 
     /**
      * 菜单类型 0 一级菜单 1 二级菜单 2 按钮
      */
+    @ApiModelProperty("菜单类型 0 一级菜单 1 二级菜单 2 按钮")
     private Integer type;
 
     /**
      * 引用类型
      */
+    @ApiModelProperty("href 引用类型")
     private String target;
 
     /**
      * 状态 0 启用 1 不启用
      */
+    @ApiModelProperty("状态0 启用 1 不启用")
     private Integer status;
 
 

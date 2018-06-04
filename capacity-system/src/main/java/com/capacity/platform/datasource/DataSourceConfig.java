@@ -1,6 +1,10 @@
 package com.capacity.platform.datasource;
 
 import com.alibaba.druid.pool.DruidDataSource;
+import com.baomidou.mybatisplus.enums.DBType;
+import com.baomidou.mybatisplus.plugins.PaginationInterceptor;
+import com.baomidou.mybatisplus.spring.MybatisSqlSessionFactoryBean;
+import org.apache.ibatis.plugin.Interceptor;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.annotation.MapperScan;
@@ -42,6 +46,16 @@ public class DataSourceConfig {
 
     @Autowired
     private DataSourceProperties properties;
+
+    /**
+     * mybatis-plus分页插件
+     */
+    @Bean
+    public PaginationInterceptor paginationInterceptor() {
+        PaginationInterceptor paginationInterceptor = new PaginationInterceptor();
+        paginationInterceptor.setDialectType(DBType.MYSQL.getDb());
+        return paginationInterceptor;
+    }
 
     /**
      * 通过Spring JDBC 快速创建 DataSource
@@ -128,14 +142,26 @@ public class DataSourceConfig {
     }
 
 
+//    @Bean
+//    public SqlSessionFactory sqlSessionFactory(@Qualifier("masterDataSource") DataSource myTestDbDataSource,
+//                                               @Qualifier("slaveDataSource") DataSource myTestDb2DataSource) throws Exception {
+//        SqlSessionFactoryBean fb = new SqlSessionFactoryBean();
+//        fb.setDataSource(this.dataSource(myTestDbDataSource, myTestDb2DataSource));
+//        fb.setTypeAliasesPackage(env.getProperty("mybatis.type-aliases-package"));
+//        fb.setMapperLocations(new PathMatchingResourcePatternResolver().getResources(env.getProperty("mybatis.mapper-locations")));
+//        return fb.getObject();
+//    }
+
     @Bean
-    public SqlSessionFactory sqlSessionFactory(@Qualifier("masterDataSource") DataSource myTestDbDataSource,
-                                               @Qualifier("slaveDataSource") DataSource myTestDb2DataSource) throws Exception {
-        SqlSessionFactoryBean fb = new SqlSessionFactoryBean();
-        fb.setDataSource(this.dataSource(myTestDbDataSource, myTestDb2DataSource));
-        fb.setTypeAliasesPackage(env.getProperty("mybatis.type-aliases-package"));
-        fb.setMapperLocations(new PathMatchingResourcePatternResolver().getResources(env.getProperty("mybatis.mapper-locations")));
-        return fb.getObject();
+    public MybatisSqlSessionFactoryBean sqlSessionFactory(@Qualifier("masterDataSource") DataSource master,
+                                                          @Qualifier("slaveDataSource") DataSource slave) throws Exception {
+        MybatisSqlSessionFactoryBean fb = new MybatisSqlSessionFactoryBean();
+        fb.setDataSource(this.dataSource(master, slave));
+        // 是否启动多数据源配置，目的是方便多环境下在本地环境调试，不影响其他环境
+//        if (properties.getOnOff() == true) {
+            fb.setPlugins(new Interceptor[]{new DatabasePlugin()});
+//        }
+        return fb;
     }
 
 

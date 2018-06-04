@@ -2,6 +2,8 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.capacity.platform.system.mapper.TestMapper" >
 
+
+
     <!--通过id查找-->
     <select id="findTestById" parameterType="int" resultType="com.capacity.platform.system.entity.Test">
         SELECT * from test where id = #{id}
