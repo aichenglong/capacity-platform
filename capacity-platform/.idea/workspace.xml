@@ -2,36 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="048b857b-c62f-4224-91d1-0025a9314949" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_2_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_support_2_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatisplus_spring_boot_starter_1_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_0_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_0_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DatabasePlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-common/capacity-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-common/capacity-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-common/src/main/java/com/capacity/platform/common/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-common/src/main/java/com/capacity/platform/common/entity/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-common/target/capacity-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-common/target/capacity-common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-common/target/classes/com/capacity/platform/common/entity/BaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-common/target/classes/com/capacity/platform/common/entity/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-common/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/capacity-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/capacity-system.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/configuration/Swagger2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/configuration/Swagger2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DataSourceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/TestMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/TestMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/target/capacity-system-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/target/capacity-system-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../capacity-common/target/" />
@@ -89,15 +63,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataSourceAspect.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DataSourceAspect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DataSourceConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DataSourceConfig.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -110,11 +75,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestMapper.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestMapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/TestMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="34">
+              <caret line="2" column="59" lean-forward="true" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/TestMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../capacity-system/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="12" lean-forward="true" selection-end-line="25" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../capacity-common/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -128,36 +138,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataSourceProperties.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.1.RELEASE/spring-boot-autoconfigure-2.0.1.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatabasePlugin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DatabasePlugin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-170">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DruidAbstractDataSource.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.6/druid-1.1.6-sources.jar!/com/alibaba/druid/pool/DruidAbstractDataSource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="1127" column="16" selection-start-line="1127" selection-start-column="16" selection-end-line="1127" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SysMenu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysMenu.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -166,15 +146,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application-dev.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/application-dev.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -210,9 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/aspect/DynamicDataSourceAspect.java" />
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/common/AppConstants.java" />
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/config/SessionFactoryConfig.java" />
         <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/App.java" />
         <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/SystemApplication.java" />
         <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/config/DruidConfig.java" />
@@ -261,6 +229,9 @@
         <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DatabasePlugin.java" />
         <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DataSourceConfig.java" />
         <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/TestMapper.xml" />
+        <option value="$PROJECT_DIR$/../capacity-system/.gitignore" />
+        <option value="$PROJECT_DIR$/../capacity-common/.gitignore" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -342,194 +313,11 @@
             </path>
             <path>
               <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
               <item name="capacity-platform" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
               <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="datasource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
@@ -558,13 +346,17 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.capacity.platform.system.mapper" />
       <recent name="com.capacity.platform.config.anotation" />
       <recent name="com.capacity.platform.common.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../capacity-common" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/../capacity-system" />
+      <recent name="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service" />
+      <recent name="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.capacity.platform.system.mapper" />
@@ -572,12 +364,8 @@
       <recent name="com.capacity.platform.system.entity" />
       <recent name="com.capacity.platform.system.controller" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl" />
-      <recent name="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity" />
-      <recent name="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper" />
-      <recent name="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -698,7 +486,7 @@
       <workItem from="1527317707865" duration="2604000" />
       <workItem from="1527689992984" duration="767000" />
       <workItem from="1527692197038" duration="37673000" />
-      <workItem from="1528043262813" duration="6417000" />
+      <workItem from="1528043262813" duration="6715000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1527690132188</created>
@@ -770,11 +558,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528036221959</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="添加mybatis-plus 增强mybatis的查询">
+      <created>1528129087407</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1528129087407</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87960000" />
+    <option name="totallyTimeSpent" value="88258000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -905,7 +700,8 @@
     <MESSAGE value="添加支持swagger2 在线接口文档" />
     <MESSAGE value="添加用户类测试" />
     <MESSAGE value="添加角色菜单接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加角色菜单接口" />
+    <MESSAGE value="添加mybatis-plus 增强mybatis的查询" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加mybatis-plus 增强mybatis的查询" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -939,44 +735,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../capacity-common/src/main/java/com/capacity/platform/common/result/ResultGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-common/src/main/java/com/capacity/platform/common/result/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetails.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE-sources.jar!/org/springframework/security/core/userdetails/UserDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="99" column="7" lean-forward="true" selection-start-line="94" selection-start-column="4" selection-end-line="99" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/SysUserSesrvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.4.RELEASE/spring-security-config-5.0.4.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configurers/ExpressionUrlAuthorizationConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1344,10 +1102,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/TestMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="34">
+          <caret line="2" column="59" lean-forward="true" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/TestMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-common/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="12" lean-forward="true" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
         </state>
       </provider>
     </entry>
