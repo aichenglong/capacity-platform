@@ -1,114 +1,66 @@
 package com.capacity.platform.system.entity;
 
-import com.capacity.platform.common.entity.BaseEntity;
+import com.baomidou.mybatisplus.activerecord.Model;
+import com.baomidou.mybatisplus.annotations.TableName;
+import java.io.Serializable;
 
 /**
- * Author: icl
- * Date:2018/06/03
- * Description:
- * Created by icl on 2018/06/03.
+ * <p>
+ * 用户表
+ * </p>
+ *
+ * @author ICL
+ * @since 2018-06-06
  */
-public class SysUser  extends BaseEntity {
+@TableName("sys_user")
+public class SysUser extends Model<SysUser> {
+
+    private static final long serialVersionUID = 1L;
 
     /**
      * 主键id
      */
-    private String uuid;
+    private Integer id;
     /**
-     * 用户名
+     * 姓名
      */
-    private String userName;
-
+    private String name;
     /**
-     * 盐
+     * 年龄
      */
-    private String salt;
-
+    private Integer age;
     /**
      * 密码
      */
     private String password;
-
-    /**
-     * 昵称(或者用户真实姓名)
-     */
-    private String nickName;
-
     /**
      * 邮箱
      */
     private String email;
 
-    /**
-     * 年龄
-     */
-    private int age;
 
-    /**
-     * 性别
-     */
-    private int sex;
-
-
-    /**
-     * 手机号码
-     */
-    private String mobile;
-
-    /**
-     * Indicates whether the user's account has expired. An expired account cannot be
-     * authenticated.
-     *
-     * @ <code>true</code> if the user's account is valid (ie non-expired),
-     * <code>false</code> if no longer valid (ie expired)
-     */
-    private boolean accountNonExpired;
-    /**
-     * Indicates whether the user is locked or unlocked. A locked user cannot be
-     * authenticated.
-     *
-     * @ <code>true</code> if the user is not locked, <code>false</code> otherwise
-     */
-    private boolean accountNonLocked;
-
-    /**
-     * Indicates whether the user's credentials (password) has expired. Expired
-     * credentials prevent authentication.
-     *
-     * <code>true</code> if the user's credentials are valid (ie non-expired),
-     * <code>false</code> if no longer valid (ie expired)
-     */
-    private boolean credentialsNonExpired;
-    /**
-     * Indicates whether the user is enabled or disabled. A disabled user cannot be
-     * authenticated.
-     *
-     * <code>true</code> if the user is enabled, <code>false</code> otherwise
-     */
-    private boolean enabled;
-
-    public String getUuid() {
-        return uuid;
+    public Integer getId() {
+        return id;
     }
 
-    public void setUuid(String uuid) {
-        this.uuid = uuid;
+    public void setId(Integer id) {
+        this.id = id;
     }
 
-    public String getUserName() {
-        return userName;
+    public String getName() {
+        return name;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getSalt() {
-        return salt;
+    public Integer getAge() {
+        return age;
     }
 
-    public void setSalt(String salt) {
-        this.salt = salt;
+    public void setAge(Integer age) {
+        this.age = age;
     }
 
     public String getPassword() {
@@ -119,14 +71,6 @@ public class SysUser  extends BaseEntity {
         this.password = password;
     }
 
-    public String getNickName() {
-        return nickName;
-    }
-
-    public void setNickName(String nickName) {
-        this.nickName = nickName;
-    }
-
     public String getEmail() {
         return email;
     }
@@ -135,59 +79,19 @@ public class SysUser  extends BaseEntity {
         this.email = email;
     }
 
-    public int getAge() {
-        return age;
+    @Override
+    protected Serializable pkVal() {
+        return this.id;
     }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public int getSex() {
-        return sex;
-    }
-
-    public void setSex(int sex) {
-        this.sex = sex;
-    }
-
-    public boolean isAccountNonExpired() {
-        return accountNonExpired;
-    }
-
-    public void setAccountNonExpired(boolean accountNonExpired) {
-        this.accountNonExpired = accountNonExpired;
-    }
-
-    public boolean isAccountNonLocked() {
-        return accountNonLocked;
-    }
-
-    public void setAccountNonLocked(boolean accountNonLocked) {
-        this.accountNonLocked = accountNonLocked;
-    }
-
-    public boolean isCredentialsNonExpired() {
-        return credentialsNonExpired;
-    }
-
-    public void setCredentialsNonExpired(boolean credentialsNonExpired) {
-        this.credentialsNonExpired = credentialsNonExpired;
-    }
-
-    public boolean isEnabled() {
-        return enabled;
-    }
-
-    public void setEnabled(boolean enabled) {
-        this.enabled = enabled;
-    }
-
-    public String getMobile() {
-        return mobile;
-    }
-
-    public void setMobile(String mobile) {
-        this.mobile = mobile;
+    @Override
+    public String toString() {
+        return "SysUser{" +
+        ", id=" + id +
+        ", name=" + name +
+        ", age=" + age +
+        ", password=" + password +
+        ", email=" + email +
+        "}";
     }
 }

@@ -1,15 +1,16 @@
 package com.capacity.platform.system.mapper;
 
-import com.capacity.platform.common.mapper.BaseMapper;
 import com.capacity.platform.system.entity.SysUser;
-import org.apache.ibatis.annotations.Mapper;
+import com.baomidou.mybatisplus.mapper.BaseMapper;
 
 /**
- * Author: icl
- * Date:2018/06/03
- * Description: 用户Mapper
- * Created by icl on 2018/06/03.
+ * <p>
+ * 用户表 Mapper 接口
+ * </p>
+ *
+ * @author ICL
+ * @since 2018-06-06
  */
-@Mapper
-public interface SysUserMapper extends BaseMapper<SysUser,String> {
+public interface SysUserMapper extends BaseMapper<SysUser> {
+
 }

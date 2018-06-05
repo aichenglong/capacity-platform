@@ -1,6 +1,6 @@
 package com.capacity.platform.system.mapper;
 
-import com.capacity.platform.system.entity.SysMenu;
+import com.capacity.platform.system.entity.SysUserRole;
 import com.baomidou.mybatisplus.mapper.BaseMapper;
 
 /**
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.mapper.BaseMapper;
  * @author ICL
  * @since 2018-06-06
  */
-public interface SysMenuMapper extends BaseMapper<SysMenu> {
+public interface SysUserRoleMapper extends BaseMapper<SysUserRole> {
 
 }

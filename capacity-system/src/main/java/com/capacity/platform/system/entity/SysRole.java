@@ -1,46 +1,71 @@
 package com.capacity.platform.system.entity;
 
-import com.capacity.platform.common.entity.BaseEntity;
+import java.util.Date;
+import com.baomidou.mybatisplus.annotations.TableField;
+import com.baomidou.mybatisplus.activerecord.Model;
+import com.baomidou.mybatisplus.annotations.TableName;
+import java.io.Serializable;
 
 /**
- * Author: icl
- * Date:2018/06/03
- * Description:角色
- * Created by icl on 2018/06/03.
+ * <p>
+ * 角色表
+ * </p>
+ *
+ * @author ICL
+ * @since 2018-06-06
  */
-public class SysRole  extends BaseEntity {
+@TableName("sys_role")
+public class SysRole extends Model<SysRole> {
 
-    /**
-     * 角色主键
-     */
-  private String uuid;
+    private static final long serialVersionUID = 1L;
 
+    private String id;
     /**
      * 角色名称
      */
-  private String roleName;
-
+    @TableField("role_name")
+    private String roleName;
     /**
-     * 角色编码
+     * 角色表名
      */
-  private String roleCode;
-
+    @TableField("role_code")
+    private String roleCode;
     /**
      * 角色描述
      */
-  private String description;
-
+    private String description;
     /**
-     * 角色状态
+     * 状态 0 可用 1 不可用
      */
-  private int status;
+    private Integer status;
+    /**
+     * 创建时间
+     */
+    @TableField("create_date")
+    private Date createDate;
+    /**
+     * 创建用户
+     */
+    @TableField("create_user")
+    private String createUser;
+    /**
+     * 修改用户
+     */
+    @TableField("modify_user")
+    private String modifyUser;
+    /**
+     * 修改时间
+     */
+    @TableField("modify_date")
+    private Date modifyDate;
 
-    public String getUuid() {
-        return uuid;
+
+    public String getId() {
+        return id;
     }
 
-    public void setUuid(String uuid) {
-        this.uuid = uuid;
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getRoleName() {
@@ -65,5 +90,65 @@ public class SysRole  extends BaseEntity {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public Integer getStatus() {
+        return status;
+    }
+
+    public void setStatus(Integer status) {
+        this.status = status;
+    }
+
+    public Date getCreateDate() {
+        return createDate;
+    }
+
+    public void setCreateDate(Date createDate) {
+        this.createDate = createDate;
+    }
+
+    public String getCreateUser() {
+        return createUser;
+    }
+
+    public void setCreateUser(String createUser) {
+        this.createUser = createUser;
+    }
+
+    public String getModifyUser() {
+        return modifyUser;
+    }
+
+    public void setModifyUser(String modifyUser) {
+        this.modifyUser = modifyUser;
+    }
+
+    public Date getModifyDate() {
+        return modifyDate;
+    }
+
+    public void setModifyDate(Date modifyDate) {
+        this.modifyDate = modifyDate;
+    }
+
+    @Override
+    protected Serializable pkVal() {
+        return this.id;
+    }
+
+    @Override
+    public String toString() {
+        return "SysRole{" +
+        ", id=" + id +
+        ", roleName=" + roleName +
+        ", roleCode=" + roleCode +
+        ", description=" + description +
+        ", status=" + status +
+        ", createDate=" + createDate +
+        ", createUser=" + createUser +
+        ", modifyUser=" + modifyUser +
+        ", modifyDate=" + modifyDate +
+        "}";
     }
 }

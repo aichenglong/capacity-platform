@@ -1,27 +1,20 @@
 package com.capacity.platform.system.service.impl;
 
-import com.capacity.platform.common.mapper.BaseMapper;
-import com.capacity.platform.common.service.impl.AbstractBaseServiceImpl;
 import com.capacity.platform.system.entity.SysUser;
 import com.capacity.platform.system.mapper.SysUserMapper;
-import com.capacity.platform.system.service.SysUserSesrvice;
+import com.capacity.platform.system.service.ISysUserService;
+import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.Resource;
-
 /**
- * Author: icl
- * Date:2018/06/03
- * Description:
- * Created by icl on 2018/06/03.
+ * <p>
+ * 用户表 服务实现类
+ * </p>
+ *
+ * @author ICL
+ * @since 2018-06-06
  */
-@Service("sysUserService")
-public class SysUserServiceImpl extends AbstractBaseServiceImpl<SysUser,String> implements SysUserSesrvice {
+@Service
+public class SysUserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> implements ISysUserService {
 
-    @Resource
-    private SysUserMapper sysUserMapper;
-    @Override
-    public BaseMapper<SysUser, String> getBaseMapper() {
-        return sysUserMapper;
-    }
 }

@@ -11,7 +11,7 @@ import java.util.List;
  * Description:
  * Created by ICL on 2018/5/19.
  */
-public interface BaseMapper<T extends BaseEntity, ID extends Serializable>  {
+public interface BaseMapper<T extends BaseEntity, ID extends Serializable> {
 
     void save(T entity);
 

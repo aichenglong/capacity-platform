@@ -1,28 +1,20 @@
 package com.capacity.platform.system.service.impl;
 
-import com.capacity.platform.common.mapper.BaseMapper;
-import com.capacity.platform.common.service.impl.AbstractBaseServiceImpl;
 import com.capacity.platform.system.entity.SysRole;
 import com.capacity.platform.system.mapper.SysRoleMapper;
-import com.capacity.platform.system.service.SysRoleService;
+import com.capacity.platform.system.service.ISysRoleService;
+import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.Resource;
-
 /**
- * Author: icl
- * Date:2018/06/03
- * Description:
- * Created by icl on 2018/06/03.
+ * <p>
+ * 角色表 服务实现类
+ * </p>
+ *
+ * @author ICL
+ * @since 2018-06-06
  */
 @Service
-public class SysRoleServiceImpl extends AbstractBaseServiceImpl<SysRole,String> implements SysRoleService {
+public class SysRoleServiceImpl extends ServiceImpl<SysRoleMapper, SysRole> implements ISysRoleService {
 
-    @Resource
-    private SysRoleMapper sysRoleMapper;
-
-    @Override
-    public BaseMapper<SysRole, String> getBaseMapper() {
-        return null;
-    }
 }

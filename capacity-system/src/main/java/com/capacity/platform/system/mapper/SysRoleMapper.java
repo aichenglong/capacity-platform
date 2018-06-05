@@ -1,15 +1,16 @@
 package com.capacity.platform.system.mapper;
 
-import com.capacity.platform.common.mapper.BaseMapper;
 import com.capacity.platform.system.entity.SysRole;
-import org.apache.ibatis.annotations.Mapper;
+import com.baomidou.mybatisplus.mapper.BaseMapper;
 
 /**
- * Author: icl
- * Date:2018/06/03
- * Description:
- * Created by icl on 2018/06/03.
+ * <p>
+ * 角色表 Mapper 接口
+ * </p>
+ *
+ * @author ICL
+ * @since 2018-06-06
  */
-@Mapper
-public interface SysRoleMapper  extends BaseMapper<SysRole,String> {
+public interface SysRoleMapper extends BaseMapper<SysRole> {
+
 }

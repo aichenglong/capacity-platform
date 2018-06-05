@@ -1,12 +1,15 @@
 package com.capacity.platform.datasource;
 
 import com.alibaba.druid.pool.DruidDataSource;
+import com.baomidou.mybatisplus.MybatisConfiguration;
+import com.baomidou.mybatisplus.entity.GlobalConfiguration;
 import com.baomidou.mybatisplus.enums.DBType;
+import com.baomidou.mybatisplus.mapper.LogicSqlInjector;
 import com.baomidou.mybatisplus.plugins.PaginationInterceptor;
 import com.baomidou.mybatisplus.spring.MybatisSqlSessionFactoryBean;
 import org.apache.ibatis.plugin.Interceptor;
 import org.apache.ibatis.session.SqlSessionFactory;
-import org.mybatis.spring.SqlSessionFactoryBean;
+import org.apache.ibatis.type.JdbcType;
 import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -35,7 +38,7 @@ import java.util.Map;
  * Created by icl on 2018/06/02.
  */
 @Configuration
-@MapperScan("com.capacity.platform.system.mapper")
+@MapperScan("com.capacity.platform.*.mapper*")
 @EnableTransactionManagement
 public class DataSourceConfig {
 
@@ -152,16 +155,49 @@ public class DataSourceConfig {
 //        return fb.getObject();
 //    }
 
+//    @Bean
+//    public MybatisSqlSessionFactoryBean sqlSessionFactory(@Qualifier("masterDataSource") DataSource master,
+//                                                          @Qualifier("slaveDataSource") DataSource slave) throws Exception {
+//        MybatisSqlSessionFactoryBean fb = new MybatisSqlSessionFactoryBean();
+//        fb.setDataSource(this.dataSource(master, slave));
+//        // 是否启动多数据源配置，目的是方便多环境下在本地环境调试，不影响其他环境
+////        if (properties.getOnOff() == true) {
+//            fb.setPlugins(new Interceptor[]{new DatabasePlugin()});
+////        }
+//        return fb;
+//    }
+
+
+    @Bean("sqlSessionFactory")
+    public SqlSessionFactory sqlSessionFactory(@Qualifier("masterDataSource") DataSource master,
+                                               @Qualifier("slaveDataSource") DataSource slave) throws Exception {
+        MybatisSqlSessionFactoryBean sqlSessionFactory = new MybatisSqlSessionFactoryBean();
+        sqlSessionFactory.setDataSource(this.dataSource(master,slave));
+        //sqlSessionFactory.setMapperLocations(new PathMatchingResourcePatternResolver().getResources("classpath:/mapper/*/*Mapper.xml"));
+
+        MybatisConfiguration configuration = new MybatisConfiguration();
+        //configuration.setDefaultScriptingLanguage(MybatisXMLLanguageDriver.class);
+        configuration.setJdbcTypeForNull(JdbcType.NULL);
+        configuration.setMapUnderscoreToCamelCase(true);
+        configuration.setCacheEnabled(false);
+        sqlSessionFactory.setConfiguration(configuration);
+        sqlSessionFactory.setPlugins(new Interceptor[]{ //PerformanceInterceptor(),OptimisticLockerInterceptor()
+                paginationInterceptor() //添加分页功能
+        });
+        sqlSessionFactory.setGlobalConfig(globalConfiguration());
+        return sqlSessionFactory.getObject();
+    }
+
     @Bean
-    public MybatisSqlSessionFactoryBean sqlSessionFactory(@Qualifier("masterDataSource") DataSource master,
-                                                          @Qualifier("slaveDataSource") DataSource slave) throws Exception {
-        MybatisSqlSessionFactoryBean fb = new MybatisSqlSessionFactoryBean();
-        fb.setDataSource(this.dataSource(master, slave));
-        // 是否启动多数据源配置，目的是方便多环境下在本地环境调试，不影响其他环境
-//        if (properties.getOnOff() == true) {
-            fb.setPlugins(new Interceptor[]{new DatabasePlugin()});
-//        }
-        return fb;
+    public GlobalConfiguration globalConfiguration() {
+        GlobalConfiguration conf = new GlobalConfiguration(new LogicSqlInjector());
+        conf.setLogicDeleteValue("-1");
+        conf.setLogicNotDeleteValue("1");
+        conf.setIdType(0);
+//        conf.setMetaObjectHandler(new MyMetaObjectHandler());
+        conf.setDbColumnUnderline(true);
+        conf.setRefresh(true);
+        return conf;
     }
 
 

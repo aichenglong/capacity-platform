@@ -1,25 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.capacity.platform.system.mapper.SysUserMapper" >
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.capacity.platform.system.mapper.SysUserMapper">
 
-    <!--通过id查找-->
-    <select id="findTestById" parameterType="int" resultType="com.capacity.platform.system.entity.SysUser">
-        SELECT * from sys_user where id = #{id}
-    </select>
-    <!--增加-->
-    <insert id="add" parameterType="com.capacity.platform.system.entity.SysUser">
-        INSERT INTO sys_user(name,note) VALUES (#{name},#{note})
-    </insert>
-    <!--删除-->
-    <delete id="deleteById" parameterType="int">
-        DELETE FROM sys_user where id = #{id}
-    </delete>
-    <!--更新-->
-    <update id="updateByID" parameterType="com.capacity.platform.system.entity.SysUser">
-        UPDATE sys_user SET NAME =#{name},note =#{note} where id = #{id}
-    </update>
-    <!--模糊查询-->
-    <select id="findByName" parameterType="string" resultType="com.capacity.platform.system.entity.SysUser">
-        SELECT id,name,note from sys_user where name like concat('%',#{name},'%')
-    </select>
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.capacity.platform.system.entity.SysUser">
+        <result column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="age" property="age" />
+        <result column="password" property="password" />
+        <result column="email" property="email" />
+    </resultMap>
+
 </mapper>
