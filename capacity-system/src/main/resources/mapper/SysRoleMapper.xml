@@ -23,4 +23,8 @@
         id, role_name, role_code, description, status, create_date, create_user, modify_user, modify_date
     </sql>
 
+    <select id="" resultMap="BaseResultMap">
+
+    </select>
+
 </mapper>
