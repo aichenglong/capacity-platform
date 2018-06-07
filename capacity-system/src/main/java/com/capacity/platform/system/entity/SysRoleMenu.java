@@ -1,20 +1,14 @@
 package com.capacity.platform.system.entity;
 
-import com.baomidou.mybatisplus.annotations.TableField;
-import com.baomidou.mybatisplus.activerecord.Model;
-import com.baomidou.mybatisplus.annotations.TableName;
 import java.io.Serializable;
 
 /**
- * <p>
- * 角色菜单表	
- * </p>
- *
- * @author ICL
- * @since 2018-06-06
+ * Author: Linux
+ * Date:2018-06-07
+ * Description: 角色菜单表	
+ * Created by Linux on 2018-06-07.
  */
-@TableName("sys_role_menu")
-public class SysRoleMenu extends Model<SysRoleMenu> {
+public class SysRoleMenu implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -25,42 +19,50 @@ public class SysRoleMenu extends Model<SysRoleMenu> {
     /**
      * 角色id
      */
-    @TableField("role_id")
     private String roleId;
     /**
      * 菜单id
      */
-    @TableField("menu_id")
     private String menuId;
 
-
+    /**
+     * 主键id
+     */
     public String getId() {
         return id;
     }
 
+    /**
+     * 主键id
+     */
     public void setId(String id) {
         this.id = id;
     }
-
+    /**
+     * 角色id
+     */
     public String getRoleId() {
         return roleId;
     }
 
+    /**
+     * 角色id
+     */
     public void setRoleId(String roleId) {
         this.roleId = roleId;
     }
-
+    /**
+     * 菜单id
+     */
     public String getMenuId() {
         return menuId;
     }
 
+    /**
+     * 菜单id
+     */
     public void setMenuId(String menuId) {
         this.menuId = menuId;
-    }
-
-    @Override
-    protected Serializable pkVal() {
-        return this.id;
     }
 
     @Override

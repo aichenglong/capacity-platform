@@ -1,30 +1,34 @@
 package com.capacity.platform.system.entity;
 
-import com.baomidou.mybatisplus.activerecord.Model;
-import com.baomidou.mybatisplus.annotations.TableName;
+import java.util.Date;
 import java.io.Serializable;
 
 /**
- * <p>
- * 用户表
- * </p>
- *
- * @author ICL
- * @since 2018-06-06
+ * Author: Linux
+ * Date:2018-06-07
+ * Description: 用户表
+ * Created by Linux on 2018-06-07.
  */
-@TableName("sys_user")
-public class SysUser extends Model<SysUser> {
+public class SysUser implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
     /**
      * 主键id
      */
-    private Integer id;
+    private String uuid;
     /**
-     * 姓名
+     * 用户名
      */
-    private String name;
+    private String userName;
+    /**
+     * 盐
+     */
+    private String salt;
+    /**
+     * 昵称(或者用户真实姓名)
+     */
+    private String nickName;
     /**
      * 年龄
      */
@@ -37,61 +41,262 @@ public class SysUser extends Model<SysUser> {
      * 邮箱
      */
     private String email;
+    /**
+     * 性别 0 男 1 女
+     */
+    private Integer gender;
+    /**
+     * 手机号码
+     */
+    private String mobile;
+    private Integer accountNonExpired;
+    /**
+     * 帐户是否锁定
+     */
+    private Integer accountNonLocked;
+    private Integer credentialsNonExpired;
+    private Integer enabled;
+    /**
+     * 创建时间
+     */
+    private Date createDate;
+    /**
+     * 创建用户
+     */
+    private String createUser;
+    /**
+     * 修改用户
+     */
+    private String modifyUser;
+    /**
+     * 修改时间
+     */
+    private Date modifyDate;
 
-
-    public Integer getId() {
-        return id;
+    /**
+     * 主键id
+     */
+    public String getUuid() {
+        return uuid;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    /**
+     * 主键id
+     */
+    public void setUuid(String uuid) {
+        this.uuid = uuid;
+    }
+    /**
+     * 用户名
+     */
+    public String getUserName() {
+        return userName;
     }
 
-    public String getName() {
-        return name;
+    /**
+     * 用户名
+     */
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+    /**
+     * 盐
+     */
+    public String getSalt() {
+        return salt;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    /**
+     * 盐
+     */
+    public void setSalt(String salt) {
+        this.salt = salt;
+    }
+    /**
+     * 昵称(或者用户真实姓名)
+     */
+    public String getNickName() {
+        return nickName;
     }
 
+    /**
+     * 昵称(或者用户真实姓名)
+     */
+    public void setNickName(String nickName) {
+        this.nickName = nickName;
+    }
+    /**
+     * 年龄
+     */
     public Integer getAge() {
         return age;
     }
 
+    /**
+     * 年龄
+     */
     public void setAge(Integer age) {
         this.age = age;
     }
-
+    /**
+     * 密码
+     */
     public String getPassword() {
         return password;
     }
 
+    /**
+     * 密码
+     */
     public void setPassword(String password) {
         this.password = password;
     }
-
+    /**
+     * 邮箱
+     */
     public String getEmail() {
         return email;
     }
 
+    /**
+     * 邮箱
+     */
     public void setEmail(String email) {
         this.email = email;
     }
+    /**
+     * 性别 0 男 1 女
+     */
+    public Integer getGender() {
+        return gender;
+    }
 
-    @Override
-    protected Serializable pkVal() {
-        return this.id;
+    /**
+     * 性别 0 男 1 女
+     */
+    public void setGender(Integer gender) {
+        this.gender = gender;
+    }
+    /**
+     * 手机号码
+     */
+    public String getMobile() {
+        return mobile;
+    }
+
+    /**
+     * 手机号码
+     */
+    public void setMobile(String mobile) {
+        this.mobile = mobile;
+    }
+    public Integer getAccountNonExpired() {
+        return accountNonExpired;
+    }
+
+    public void setAccountNonExpired(Integer accountNonExpired) {
+        this.accountNonExpired = accountNonExpired;
+    }
+    /**
+     * 帐户是否锁定
+     */
+    public Integer getAccountNonLocked() {
+        return accountNonLocked;
+    }
+
+    /**
+     * 帐户是否锁定
+     */
+    public void setAccountNonLocked(Integer accountNonLocked) {
+        this.accountNonLocked = accountNonLocked;
+    }
+    public Integer getCredentialsNonExpired() {
+        return credentialsNonExpired;
+    }
+
+    public void setCredentialsNonExpired(Integer credentialsNonExpired) {
+        this.credentialsNonExpired = credentialsNonExpired;
+    }
+    public Integer getEnabled() {
+        return enabled;
+    }
+
+    public void setEnabled(Integer enabled) {
+        this.enabled = enabled;
+    }
+    /**
+     * 创建时间
+     */
+    public Date getCreateDate() {
+        return createDate;
+    }
+
+    /**
+     * 创建时间
+     */
+    public void setCreateDate(Date createDate) {
+        this.createDate = createDate;
+    }
+    /**
+     * 创建用户
+     */
+    public String getCreateUser() {
+        return createUser;
+    }
+
+    /**
+     * 创建用户
+     */
+    public void setCreateUser(String createUser) {
+        this.createUser = createUser;
+    }
+    /**
+     * 修改用户
+     */
+    public String getModifyUser() {
+        return modifyUser;
+    }
+
+    /**
+     * 修改用户
+     */
+    public void setModifyUser(String modifyUser) {
+        this.modifyUser = modifyUser;
+    }
+    /**
+     * 修改时间
+     */
+    public Date getModifyDate() {
+        return modifyDate;
+    }
+
+    /**
+     * 修改时间
+     */
+    public void setModifyDate(Date modifyDate) {
+        this.modifyDate = modifyDate;
     }
 
     @Override
     public String toString() {
         return "SysUser{" +
-        ", id=" + id +
-        ", name=" + name +
+        ", uuid=" + uuid +
+        ", userName=" + userName +
+        ", salt=" + salt +
+        ", nickName=" + nickName +
         ", age=" + age +
         ", password=" + password +
         ", email=" + email +
+        ", gender=" + gender +
+        ", mobile=" + mobile +
+        ", accountNonExpired=" + accountNonExpired +
+        ", accountNonLocked=" + accountNonLocked +
+        ", credentialsNonExpired=" + credentialsNonExpired +
+        ", enabled=" + enabled +
+        ", createDate=" + createDate +
+        ", createUser=" + createUser +
+        ", modifyUser=" + modifyUser +
+        ", modifyDate=" + modifyDate +
         "}";
     }
 }

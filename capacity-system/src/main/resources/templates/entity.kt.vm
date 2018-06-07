@@ -8,7 +8,7 @@ import ${pkg}
  * Author: ${author}
  * Date:${date}
  * Description: ${table.comment}
- * Created by ${author} on${date}.
+ * Created by ${author} on ${date}.
  */
 #if(${table.convert})
 @TableName("${table.name}")

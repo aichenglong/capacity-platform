@@ -24,7 +24,7 @@ public class Swagger2 {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.capacity.platform.system.web"))
+                .apis(RequestHandlerSelectors.basePackage("com.capacity.platform.system.web.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }

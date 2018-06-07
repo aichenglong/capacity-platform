@@ -8,11 +8,12 @@ import ${basePackage}.${model}.service.${modelNameUpperCamel}Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+
 /**
  * Author: ${author}
  * Date:${date}
- * Description:
- * Created by ${date} on ${date}.
+ * Description: $!{table.comment} 服务实现类
+ * Created ${author}  on ${date}.
  */
 @Service("${modelNamelowerCamel}Service")
 public class ${modelNameUpperCamel}ServiceImpl extends AbstractBaseServiceImpl<${modelNameUpperCamel},${id}> implements

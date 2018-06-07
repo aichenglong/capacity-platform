@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * Author: ${author}
  * Date:${date}
- * Description:
+ * Description: ${table.comment}
  * Created by ${author} on ${date}.
  */
 @RestController

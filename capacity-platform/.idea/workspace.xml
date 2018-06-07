@@ -2,32 +2,77 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="048b857b-c62f-4224-91d1-0025a9314949" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../capacity-system/src/test/java/com/capacity/platform/MpGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-common/src/main/java/com/capacity/platform/common/mapper/BaseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-common/src/main/java/com/capacity/platform/common/mapper/BaseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/controller.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/controller.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/entity.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/entity.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/entity.kt.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/entity.kt.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/mapper.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/mapper.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/mapper.xml.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/mapper.xml.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/service.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/service.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/serviceImpl.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/serviceImpl.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/test/java/com/capacity/platform/SimpleMp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../capacity-system/capacity-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/capacity-system.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../capacity-system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/SystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/SystemApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/configuration/Swagger2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/configuration/Swagger2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DataSourceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/controller/SysMenuController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/controller/SysUserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/controller/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysRoleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/SysMenuService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/SysRoleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/SysUserSesrvice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/TestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysRoleMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysUserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysMenuMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysRoleMenuMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysUserRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/TestMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/ISysMenuService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/ISysRoleMenuService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/ISysRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/ISysUserRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/ISysUserService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl/SysMenuServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl/SysRoleMenuServiceImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl/SysRoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl/SysUserRoleServiceImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl/SysUserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/SysMenuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/SysRoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/SysRoleMenuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/SysUserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/SysUserRoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysMenuMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysRoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysRoleMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysRoleMenuMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysUserRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysUserRoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/template/controller.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/controller.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/template/controller.java.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/template/controller.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/template/controller_restful.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/controller_restful.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/template/entity.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/entity.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/template/entity.java.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/template/entity.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/template/entity.kt.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/template/entity.kt.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/template/mapper.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/mapper.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/template/mapper.java.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/template/mapper.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/template/mapper.xml.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/template/mapper.xml.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/template/service.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/service.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/template/service.java.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/template/service.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/template/serviceImpl.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/serviceImpl.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/template/serviceImpl.java.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/template/serviceImpl.java.vm" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../capacity-common/target/" />
@@ -60,98 +105,88 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DataSourceConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DataSourceConfig.java">
+      <file leaf-file-name="service.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/templates/service.ftl">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="service.java.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/templates/service.java.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="130" selection-start-line="130" selection-end-line="130" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SysUserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/SysUserController.java">
+      <file leaf-file-name="service.java.vm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/templates/service.java.vm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="153">
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SysRole.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysRole.java">
+      <file leaf-file-name="serviceImpl.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/templates/serviceImpl.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-697">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MpGenerator.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../capacity-system/src/test/java/com/capacity/platform/MpGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="71" column="103" selection-start-line="71" selection-start-column="103" selection-end-line="71" selection-end-column="103" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SysUserMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysUserMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SysUserMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysUserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SysRoleMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysRoleMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="80" selection-start-line="5" selection-start-column="80" selection-end-line="5" selection-end-column="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SysRoleServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl/SysRoleServiceImpl.java">
+      <file leaf-file-name="serviceImpl.java.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/templates/serviceImpl.java.ftl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SysRoleMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysRoleMapper.java">
+      <file leaf-file-name="serviceImpl.java.vm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/templates/serviceImpl.java.vm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            <state relative-caret-position="187">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServletInvocableHandlerMethod.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.5.RELEASE/spring-webmvc-5.0.5.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
+      <file leaf-file-name="SysMenuMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysMenuMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="119" selection-start-line="119" selection-end-line="119" />
+            <state relative-caret-position="170">
+              <caret line="11" column="45" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SysMenuController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/controller/SysMenuController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Swagger2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/configuration/Swagger2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="34" column="38" lean-forward="true" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseMapper.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.1.9/mybatis-plus-support-2.1.9-sources.jar!/com/baomidou/mybatisplus/mapper/BaseMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -188,23 +223,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/application-dev.properties" />
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/config/DatabaseContextHolder.java" />
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/config/DatabaseType.java" />
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/config/DataSourceAspect.java" />
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/config/DataSourceConfig.java" />
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/config/DynamicDataSource.java" />
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/Test.java" />
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/TestService.java" />
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/application-prod.properties" />
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/banner.txt" />
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DatabaseContextHolder.java" />
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DatabaseType.java" />
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysUser.java" />
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysRole.java" />
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl/SysUserSesrviceImpl.java" />
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/SysRoleService.java" />
         <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/SysRoleServiceImpl.java" />
         <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysRoleMapper.java" />
         <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/SysMenuService.java" />
@@ -235,10 +253,27 @@
         <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/controller/SysMenuController.java" />
         <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl/SysUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl/SysRoleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/configuration/Swagger2.java" />
         <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/SysUserController.java" />
         <option value="$PROJECT_DIR$/../capacity-system/src/test/java/com/capacity/platform/MpGenerator.java" />
+        <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/controller.ftl" />
+        <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/controller.java.ftl" />
+        <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/serviceImpl.ftl" />
+        <option value="$PROJECT_DIR$/../capacity-system/src/test/java/com/capacity/platform/SimpleMp.java" />
+        <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/controller/SysMenuController.java" />
+        <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/controller.java.vm" />
+        <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/controller_restful.ftl" />
+        <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/entity.java.ftl" />
+        <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/entity.java.vm" />
+        <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/entity.kt.ftl" />
+        <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/entity.kt.vm" />
+        <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/mapper.java.ftl" />
+        <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/mapper.java.vm" />
+        <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/service.java.ftl" />
+        <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/service.java.vm" />
+        <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/serviceImpl.java.ftl" />
+        <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/serviceImpl.java.vm" />
+        <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/configuration/Swagger2.java" />
       </list>
     </option>
   </component>
@@ -310,8 +345,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -336,44 +369,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-common" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-common" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-common" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
@@ -434,46 +429,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
               <item name="system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
@@ -493,28 +449,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="platform" type="462c0819:PsiDirectoryNode" />
               <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
@@ -537,7 +472,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
@@ -568,6 +503,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -586,18 +523,20 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.capacity.platform.system.mapper" />
+      <recent name="com.capacity.platform.config.anotation" />
+      <recent name="com.capacity.platform.common.entity" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.capacity.platform" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../capacity-system/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/../capacity-system/src/main/resources/mapper" />
       <recent name="$PROJECT_DIR$/../capacity-common" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/../capacity-system" />
-      <recent name="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.capacity.platform" />
@@ -606,10 +545,9 @@
       <recent name="com.capacity.platform.system.entity" />
       <recent name="com.capacity.platform.system.controller" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.capacity.platform.system.mapper" />
-      <recent name="com.capacity.platform.config.anotation" />
-      <recent name="com.capacity.platform.common.entity" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../capacity-system/src/main/resources/mapper" />
+      <recent name="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -624,7 +562,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MpGenerator">
+  <component name="RunManager" selected="Application.SystemApplication">
     <configuration name="MpGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.capacity.platform.MpGenerator" />
       <module name="capacity-system" />
@@ -649,6 +587,52 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="SimpleMp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="capacity-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.capacity.platform.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.capacity.platform" />
+      <option name="MAIN_CLASS_NAME" value="com.capacity.platform.SimpleMp" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SimpleMp.generateCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="capacity-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.capacity.platform.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.capacity.platform" />
+      <option name="MAIN_CLASS_NAME" value="com.capacity.platform.SimpleMp" />
+      <option name="METHOD_NAME" value="generateCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -691,11 +675,15 @@
     <list>
       <item itemvalue="Application.SystemApplication" />
       <item itemvalue="Application.MpGenerator" />
+      <item itemvalue="JUnit.SimpleMp" />
+      <item itemvalue="JUnit.SimpleMp.generateCode" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MpGenerator" />
         <item itemvalue="Application.SystemApplication" />
+        <item itemvalue="JUnit.SimpleMp" />
+        <item itemvalue="JUnit.SimpleMp.generateCode" />
+        <item itemvalue="Application.MpGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -748,6 +736,8 @@
       <workItem from="1527692197038" duration="37673000" />
       <workItem from="1528043262813" duration="9402000" />
       <workItem from="1528213988353" duration="4294000" />
+      <workItem from="1528300145642" duration="898000" />
+      <workItem from="1528303382846" duration="5571000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1527690132188</created>
@@ -843,8 +833,40 @@
     <option name="localTasksCounter" value="14" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="SimpleMp - 2018.06.07 at 01h 04m 43s.xml">
+      <configuration name="SimpleMp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleMp - 2018.06.07 at 01h 07m 13s.xml">
+      <configuration name="SimpleMp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleMp - 2018.06.07 at 22h 11m 12s.xml">
+      <configuration name="SimpleMp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleMp - 2018.06.07 at 22h 12m 14s.xml">
+      <configuration name="SimpleMp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleMp - 2018.06.07 at 22h 12m 57s.xml">
+      <configuration name="SimpleMp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleMp - 2018.06.07 at 22h 16m 43s.xml">
+      <configuration name="SimpleMp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleMp - 2018.06.07 at 22h 20m 10s.xml">
+      <configuration name="SimpleMp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleMp - 2018.06.07 at 22h 34m 51s.xml">
+      <configuration name="SimpleMp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleMp - 2018.06.07 at 22h 39m 07s.xml">
+      <configuration name="SimpleMp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleMp - 2018.06.07 at 22h 42m 25s.xml">
+      <configuration name="SimpleMp" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95239000" />
+    <option name="totallyTimeSpent" value="101708000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -856,7 +878,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-6" width="1920" height="1019" extended-state="6" />
+    <frame x="-1" y="-11" width="1922" height="1025" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -867,33 +889,33 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.24334398" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32988507" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.329849" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.30429733" />
       <window_info anchor="bottom" id="Spring" order="14" weight="0.32947975" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.2867052" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49906543" visible="true" weight="0.2529349" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49906543" visible="true" weight="0.25827107" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" sideWeight="0.49906892" weight="0.35502958" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32868758" />
       <window_info id="Learn" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.5009346" side_tool="true" weight="0.2529349" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24973376" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="4" visible="true" weight="0.3786295" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.3786295" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" x="0" y="0" width="430" height="817" id="Documentation" order="4" sideWeight="0.5009311" side_tool="true" visible="true" weight="0.25665602" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" x="0" y="0" width="430" height="817" id="Documentation" order="4" sideWeight="0.5009311" side_tool="true" visible="true" weight="0.25665602" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.32947975" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32868758" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="2" />
@@ -1018,364 +1040,338 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/TestMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/TestMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.1.9/mybatis-plus-support-2.1.9-sources.jar!/com/baomidou/mybatisplus/service/IService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/SysUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/replay_pid18680.log" />
-    <entry file="file://$PROJECT_DIR$/replay_pid18268.log" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.1.RELEASE/spring-boot-autoconfigure-2.0.1.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="64" column="45" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-common/src/main/java/com/capacity/platform/common/mapper/BaseMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="13" column="75" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-common/src/main/java/com/capacity/platform/common/result/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-common/src/main/java/com/capacity/platform/common/result/ResultCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.1.9/mybatis-plus-support-2.1.9-sources.jar!/com/baomidou/mybatisplus/mapper/BaseMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/service/MyGrantedAuthority.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/service/CustomUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/application-prod.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="124" column="38" selection-start-line="124" selection-start-column="38" selection-end-line="124" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="122" column="41" selection-start-line="122" selection-start-column="41" selection-end-line="122" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-common/src/main/java/com/capacity/platform/MpGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/SystemApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/xml/SysUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/xml/SysRoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/controller/SysUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl/SysMenuServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/controller/SysMenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/ISysRoleService.java">
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/mapper/SysMenuMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-290">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.1.9/mybatis-plus-support-2.1.9-sources.jar!/com/baomidou/mybatisplus/service/impl/ServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/ISysUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/SysRoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl/SysUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/configuration/Swagger2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="26" column="91" selection-start-line="26" selection-start-column="91" selection-end-line="26" selection-end-column="91" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="52" column="24" lean-forward="true" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DatabasePlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DatabaseType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DatabaseContextHolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="46" />
-          <folding>
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-          </folding>
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DataSourceAspect.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capacity/platform/entity/SysMenu.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysMenuMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="43" column="72" lean-forward="true" selection-start-line="43" selection-start-column="72" selection-end-line="43" selection-end-column="72" />
-        </state>
+        <state relative-caret-position="-102" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DynamicDataSource.java">
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/SysMenuService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="22" />
+        <state relative-caret-position="170">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="140" selection-start-line="140" selection-end-line="140" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.5.RELEASE/spring-webmvc-5.0.5.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="119" selection-start-line="119" selection-end-line="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DataSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="130" selection-start-line="130" selection-end-line="130" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/SysUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-697">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysRoleMapper.java">
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/ISysMenuService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl/SysRoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysRoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="80" selection-start-line="5" selection-start-column="80" selection-end-line="5" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysUserMapper.java">
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/controller/SysRoleController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/controller/SysRoleMenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/controller/SysUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/controller/SysUserRoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysRoleMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/template/controller.java.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/template/entity.java.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="96" column="66" lean-forward="true" selection-start-line="96" selection-start-column="66" selection-end-line="96" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl/SysUserRoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/SysMenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/SysRoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/SysRoleMenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/SysUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/SysUserRoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/TestMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../capacity-system/src/test/java/com/capacity/platform/MpGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="71" column="103" selection-start-line="71" selection-start-column="103" selection-end-line="71" selection-end-column="103" />
+        <state relative-caret-position="-663">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="126" column="5" selection-start-line="126" selection-start-column="5" selection-end-line="126" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysUserRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/test/java/com/capacity/platform/SimpleMp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="75" column="14" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/templates/controller.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/templates/controller.java.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/templates/controller.java.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="32" selection-start-line="32" selection-end-line="37" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/templates/controller_restful.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/templates/entity.ftl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/templates/entity.java.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/templates/entity.java.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/templates/entity.kt.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/templates/entity.kt.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/templates/mapper.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/templates/mapper.java.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/templates/mapper.java.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/templates/mapper.xml.ftl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/templates/mapper.xml.vm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/templates/service.ftl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/templates/service.java.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/templates/service.java.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/templates/serviceImpl.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/templates/serviceImpl.java.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/templates/serviceImpl.java.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.1.9/mybatis-plus-support-2.1.9-sources.jar!/com/baomidou/mybatisplus/mapper/BaseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysMenuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/controller/SysMenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/configuration/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="34" column="38" lean-forward="true" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
         </state>
       </provider>
     </entry>

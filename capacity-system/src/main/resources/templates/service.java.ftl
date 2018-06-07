@@ -7,7 +7,7 @@ import ${superServiceClassPackage};
 * Author: ${author}
 * Date:${date}
 * Description: ${table.comment} 服务类
-* Created by ${author} on${date}.
+* Created by ${author} on ${date}.
 */
 <#if kotlin>
 interface ${table.serviceName} : ${superServiceClass}<${entity}>

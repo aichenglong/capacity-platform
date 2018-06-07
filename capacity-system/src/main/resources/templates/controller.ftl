@@ -8,12 +8,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
 /**
  * Author: ${author}
  * Date:${date}
- * Description:
- * Created by ${author} on ${date}.
+ * Description: $!{table.comment} 前端控制器
+ * Created ${author}  on ${date}.
  */
 @RestController
 @RequestMapping("/${model}/${modelNameLowerCame}")

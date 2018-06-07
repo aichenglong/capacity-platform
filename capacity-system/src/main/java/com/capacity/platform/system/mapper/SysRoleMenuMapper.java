@@ -4,12 +4,10 @@ import com.capacity.platform.system.entity.SysRoleMenu;
 import com.baomidou.mybatisplus.mapper.BaseMapper;
 
 /**
- * <p>
- * 角色菜单表	 Mapper 接口
- * </p>
- *
- * @author ICL
- * @since 2018-06-06
+ * Author: Linux
+ * Date:2018-06-07
+ * Description: 角色菜单表	 Mapper 接口
+ * Created by Linux on 2018-06-07.
  */
 public interface SysRoleMenuMapper extends BaseMapper<SysRoleMenu> {
 
