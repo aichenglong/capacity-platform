@@ -4,9 +4,9 @@ import java.io.Serializable;
 
 /**
  * Author: Linux
- * Date:2018-06-07
+ * Date:2018-06-08
  * Description: 
- * Created by Linux on 2018-06-07.
+ * Created by Linux on 2018-06-08.
  */
 public class SysUserRole implements Serializable {
 

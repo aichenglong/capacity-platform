@@ -9,10 +9,7 @@
     <resultMap id="BaseResultMap" type="com.capacity.platform.system.entity.SysUser">
         <id column="uuid" property="uuid" />
         <result column="user_name" property="userName" />
-        <result column="salt" property="salt" />
-        <result column="nick_name" property="nickName" />
-        <result column="age" property="age" />
-        <result column="password" property="password" />
+        <result column="salt" property="salt" />u
         <result column="email" property="email" />
         <result column="gender" property="gender" />
         <result column="mobile" property="mobile" />
@@ -30,5 +27,11 @@
     <sql id="Base_Column_List">
         uuid, user_name, salt, nick_name, age, password, email, gender, mobile, account_non_expired, account_non_locked, credentials_non_expired, enabled, create_date, create_user, modify_user, modify_date
     </sql>
+
+    <select id="findByUserId" parameterType="java.lang.String" resultMap="BaseResultMap">
+
+        select  * from sys_user  where uuid=#{uuid}
+
+    </select>
 
 </mapper>

@@ -23,8 +23,19 @@
         id, role_name, role_code, description, status, create_date, create_user, modify_user, modify_date
     </sql>
 
-    <select id="" resultMap="BaseResultMap">
+    <select id="findByUserId" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select  * from sys_role sr
+        inner  join sys_user_role sur on sur.role_id=sr.id
+        inner  join sys_user su on su.uuid=sur.user_id
+        where su.uuid=#{uuid}
 
+    </select>
+
+    <select id="findByMenuId" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select  * from sys_role sr
+        inner  join sys_role_menu  srm on srm.role_id=sr.id
+        inner join sys_menu  sm on sm.id =srm.menu_id
+        where sm.id=#{id}
     </select>
 
 </mapper>

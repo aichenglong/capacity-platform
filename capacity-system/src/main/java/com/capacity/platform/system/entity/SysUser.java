@@ -5,9 +5,9 @@ import java.io.Serializable;
 
 /**
  * Author: Linux
- * Date:2018-06-07
+ * Date:2018-06-08
  * Description: 用户表
- * Created by Linux on 2018-06-07.
+ * Created by Linux on 2018-06-08.
  */
 public class SysUser implements Serializable {
 
@@ -49,13 +49,13 @@ public class SysUser implements Serializable {
      * 手机号码
      */
     private String mobile;
-    private Integer accountNonExpired;
+    private Boolean accountNonExpired;
     /**
      * 帐户是否锁定
      */
-    private Integer accountNonLocked;
-    private Integer credentialsNonExpired;
-    private Integer enabled;
+    private Boolean accountNonLocked;
+    private Boolean credentialsNonExpired;
+    private Boolean enabled;
     /**
      * 创建时间
      */
@@ -190,38 +190,38 @@ public class SysUser implements Serializable {
     public void setMobile(String mobile) {
         this.mobile = mobile;
     }
-    public Integer getAccountNonExpired() {
+    public Boolean isAccountNonExpired() {
         return accountNonExpired;
     }
 
-    public void setAccountNonExpired(Integer accountNonExpired) {
+    public void setAccountNonExpired(Boolean accountNonExpired) {
         this.accountNonExpired = accountNonExpired;
     }
     /**
      * 帐户是否锁定
      */
-    public Integer getAccountNonLocked() {
+    public Boolean isAccountNonLocked() {
         return accountNonLocked;
     }
 
     /**
      * 帐户是否锁定
      */
-    public void setAccountNonLocked(Integer accountNonLocked) {
+    public void setAccountNonLocked(Boolean accountNonLocked) {
         this.accountNonLocked = accountNonLocked;
     }
-    public Integer getCredentialsNonExpired() {
+    public Boolean isCredentialsNonExpired() {
         return credentialsNonExpired;
     }
 
-    public void setCredentialsNonExpired(Integer credentialsNonExpired) {
+    public void setCredentialsNonExpired(Boolean credentialsNonExpired) {
         this.credentialsNonExpired = credentialsNonExpired;
     }
-    public Integer getEnabled() {
+    public Boolean isEnabled() {
         return enabled;
     }
 
-    public void setEnabled(Integer enabled) {
+    public void setEnabled(Boolean enabled) {
         this.enabled = enabled;
     }
     /**

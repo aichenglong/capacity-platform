@@ -20,11 +20,12 @@
         <result column="create_user" property="createUser" />
         <result column="modify_user" property="modifyUser" />
         <result column="modify_date" property="modifyDate" />
+        <result column="description" property="description" />
     </resultMap>
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        id, name, href, icon, parent_id, type, target, status, order_item, create_date, create_user, modify_user, modify_date
+        id, name, href, icon, parent_id, type, target, status, order_item, create_date, create_user, modify_user, modify_date, description
     </sql>
 
 </mapper>

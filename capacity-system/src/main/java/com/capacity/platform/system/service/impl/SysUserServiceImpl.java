@@ -7,9 +7,9 @@ import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 /**
  * Author: Linux
- * Date:2018-06-07
+ * Date:2018-06-08
  * Description: 用户表 服务实现类
- * Created by Linux on 2018-06-07.
+ * Created by Linux on 2018-06-08.
  */
 @Service
 public class SysUserServiceImpl extends ServiceImpl<SysUserMapper, SysUser> implements SysUserService {

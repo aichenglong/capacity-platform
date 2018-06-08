@@ -5,9 +5,9 @@ import java.io.Serializable;
 
 /**
  * Author: Linux
- * Date:2018-06-07
+ * Date:2018-06-08
  * Description: 
- * Created by Linux on 2018-06-07.
+ * Created by Linux on 2018-06-08.
  */
 public class SysMenu implements Serializable {
 
@@ -62,6 +62,10 @@ public class SysMenu implements Serializable {
      * 修改时间
      */
     private Date modifyDate;
+    /**
+     * 资源描述
+     */
+    private String description;
 
     public String getId() {
         return id;
@@ -226,6 +230,19 @@ public class SysMenu implements Serializable {
     public void setModifyDate(Date modifyDate) {
         this.modifyDate = modifyDate;
     }
+    /**
+     * 资源描述
+     */
+    public String getDescription() {
+        return description;
+    }
+
+    /**
+     * 资源描述
+     */
+    public void setDescription(String description) {
+        this.description = description;
+    }
 
     @Override
     public String toString() {
@@ -243,6 +260,7 @@ public class SysMenu implements Serializable {
         ", createUser=" + createUser +
         ", modifyUser=" + modifyUser +
         ", modifyDate=" + modifyDate +
+        ", description=" + description +
         "}";
     }
 }
