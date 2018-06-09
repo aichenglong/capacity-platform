@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="048b857b-c62f-4224-91d1-0025a9314949" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/AccessDecisionManager/CustomAccessDecisionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/MetadataSource/CustomSecurityContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/MetadataSource/CustomSecurityMetadataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/handel/CustomAuthenticationFailureHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/handel/CustomAuthenticationSuccessHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/interceptor/CustomFilterSecurityInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/userdetails/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_4_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/capacity-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/capacity-system.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/service/CustomUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/service/CustomUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/service/MyAccessDecisionManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/service/MyGrantedAuthority.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/service/MyInvocationSecurityMetadataSourceService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/service/SecurityProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysRoleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysRoleMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysUserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysUserRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysMenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysMenuMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysRoleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysRoleMenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysRoleMenuMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysUserRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysUserRoleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl/SysMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl/SysMenuServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl/SysRoleMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl/SysRoleMenuServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl/SysRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl/SysRoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl/SysUserRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl/SysUserRoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysMenuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysRoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/entity.java.vm" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/entity.java.vm" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../capacity-common/target/" />
@@ -155,8 +120,8 @@
       <file leaf-file-name="SysRoleMapper.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysRoleMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="37" selection-end-column="25" />
+            <state relative-caret-position="279">
+              <caret line="35" column="59" lean-forward="true" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -831,7 +796,7 @@
       <workItem from="1528043262813" duration="9402000" />
       <workItem from="1528213988353" duration="4294000" />
       <workItem from="1528300145642" duration="898000" />
-      <workItem from="1528303382846" duration="18355000" />
+      <workItem from="1528303382846" duration="19233000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1527690132188</created>
@@ -938,7 +903,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528413631832</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="完成权限认证 未测试">
+      <created>1528474028465</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1528474028465</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -974,7 +946,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114492000" />
+    <option name="totallyTimeSpent" value="115370000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -987,11 +959,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1025" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32947975" />
-      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32752612" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32752612" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -1002,7 +973,7 @@
       <window_info anchor="bottom" id="Spring" order="14" weight="0.32947975" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.2867052" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49906543" visible="true" weight="0.25773746" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49906543" visible="true" weight="0.25773746" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" sideWeight="0.49906892" weight="0.35502958" />
@@ -1012,7 +983,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24973376" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.3786295" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.3786295" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -1112,7 +1083,8 @@
     <MESSAGE value="去除class文件" />
     <MESSAGE value="添加自动生产管理系统类" />
     <MESSAGE value="添加security 权限认证" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加security 权限认证" />
+    <MESSAGE value="完成权限认证 未测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成权限认证 未测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1566,8 +1538,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysRoleMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="37" selection-end-column="25" />
+        <state relative-caret-position="279">
+          <caret line="35" column="59" lean-forward="true" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
         </state>
       </provider>
     </entry>
