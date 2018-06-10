@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="048b857b-c62f-4224-91d1-0025a9314949" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/MyMetaObjectHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/capacity-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/capacity-system.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DataSourceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/AccessDecisionManager/CustomAccessDecisionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/AccessDecisionManager/CustomAccessDecisionManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/MetadataSource/CustomSecurityMetadataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/MetadataSource/CustomSecurityMetadataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/interceptor/CustomFilterSecurityInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/interceptor/CustomFilterSecurityInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/service/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/service/CustomUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysRoleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl/SysRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl/SysRoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysRoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysUserMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../capacity-common/target/" />
@@ -104,7 +82,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
@@ -113,10 +91,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataSourceConfig.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DataSourceConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DataSourceConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
+            <state relative-caret-position="-260">
               <caret line="182" column="34" selection-start-line="182" selection-start-column="34" selection-end-line="182" selection-end-column="34" />
             </state>
           </provider>
@@ -660,7 +638,7 @@
       <workItem from="1528213988353" duration="4294000" />
       <workItem from="1528300145642" duration="898000" />
       <workItem from="1528303382846" duration="29676000" />
-      <workItem from="1528567095909" duration="6704000" />
+      <workItem from="1528567095909" duration="6950000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1527690132188</created>
@@ -781,7 +759,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528555227472</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="修改mapper的配置 支持mapper.xml自定义位置">
+      <created>1528624008524</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1528624008526</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -817,7 +802,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132517000" />
+    <option name="totallyTimeSpent" value="132763000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -830,7 +815,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="1922" height="1025" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32947975" />
@@ -957,7 +941,8 @@
     <MESSAGE value="添加security 权限认证" />
     <MESSAGE value="完成权限认证 未测试" />
     <MESSAGE value="添加通用的service和controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加通用的service和controller" />
+    <MESSAGE value="修改mapper的配置 支持mapper.xml自定义位置" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改mapper的配置 支持mapper.xml自定义位置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1050,6 +1035,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="22" column="41" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1057,6 +1045,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1125,6 +1116,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1327,17 +1321,17 @@
         <state relative-caret-position="-51" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-260">
+          <caret line="182" column="34" selection-start-line="182" selection-start-column="34" selection-end-line="182" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DataSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="182" column="34" selection-start-line="182" selection-start-column="34" selection-end-line="182" selection-end-column="34" />
         </state>
       </provider>
     </entry>
