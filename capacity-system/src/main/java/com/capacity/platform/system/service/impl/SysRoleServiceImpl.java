@@ -23,6 +23,6 @@ public class SysRoleServiceImpl extends ServiceImpl<SysRoleMapper, SysRole> impl
 
     @Override
     public List<SysRole> findByMenuId(String id) {
-        return sysRoleMapper.findByMenuId(id);
+        return sysRoleMapper.selectMenuId(id);
     }
 }

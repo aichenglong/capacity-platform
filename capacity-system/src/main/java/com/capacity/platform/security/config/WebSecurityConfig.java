@@ -1,7 +1,7 @@
 package com.capacity.platform.security.config;
 
 import com.capacity.platform.security.handel.CustomAuthenticationFailureHandler;
-import com.capacity.platform.security.handel.CustomAuthenticationSuccessHandler;
+import com.capacity.platform.security.interceptor.CustomFilterSecurityInterceptor;
 import com.capacity.platform.security.service.CustomUserDetailsService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -18,6 +18,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.factory.PasswordEncoderFactories;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.web.access.intercept.FilterSecurityInterceptor;
 
 /**
  * Author: icl
@@ -32,21 +33,24 @@ public class WebSecurityConfig  extends WebSecurityConfigurerAdapter {
 
     public   static Logger log=LoggerFactory.getLogger(WebSecurityConfig.class);
 
-    @Autowired
-    private CustomAuthenticationFailureHandler customAuthenticationFailureHandler;
+//    @Autowired
+//    private CustomAuthenticationFailureHandler customAuthenticationFailureHandler;
 
     @Autowired
     private CustomUserDetailsService customUserDetailsService;
 
+//
+//    @Autowired
+//    private CustomAuthenticationSuccessHandler customAuthenticationSuccessHandler;
+
+//
+//    @Autowired
+//    private CustomAuthenticationFailureHandler customAuthenticationFailureHandler;
+
+
 
     @Autowired
-    private CustomAuthenticationSuccessHandler customAuthenticationSuccessHandler;
-
-
-
-
-
-
+    private CustomFilterSecurityInterceptor customFilterSecurityInterceptor;
 
     /**
      * Override this method to configure {@link WebSecurity}. For example, if you wish to
@@ -105,6 +109,9 @@ public class WebSecurityConfig  extends WebSecurityConfigurerAdapter {
                 .loginProcessingUrl("/login")
                 .and().rememberMe().rememberMeParameter("remember-me").tokenValiditySeconds(86400)
                 .and().csrf().disable();
+
+
+        http.addFilterBefore(customFilterSecurityInterceptor,FilterSecurityInterceptor.class);
 
 
     }

@@ -4,7 +4,11 @@ import com.alibaba.druid.pool.DruidDataSource;
 import com.baomidou.mybatisplus.MybatisConfiguration;
 import com.baomidou.mybatisplus.entity.GlobalConfiguration;
 import com.baomidou.mybatisplus.enums.DBType;
+import com.baomidou.mybatisplus.incrementer.H2KeyGenerator;
+import com.baomidou.mybatisplus.incrementer.IKeyGenerator;
+import com.baomidou.mybatisplus.mapper.ISqlInjector;
 import com.baomidou.mybatisplus.mapper.LogicSqlInjector;
+import com.baomidou.mybatisplus.mapper.MetaObjectHandler;
 import com.baomidou.mybatisplus.plugins.PaginationInterceptor;
 import com.baomidou.mybatisplus.spring.MybatisSqlSessionFactoryBean;
 import org.apache.ibatis.plugin.Interceptor;
@@ -38,7 +42,7 @@ import java.util.Map;
  * Created by icl on 2018/06/02.
  */
 @Configuration
-@MapperScan("com.capacity.platform.*.mapper*")
+@MapperScan("com.capacity.platform.*.mapper")
 @EnableTransactionManagement
 public class DataSourceConfig {
 
@@ -168,13 +172,14 @@ public class DataSourceConfig {
 //    }
 
 
-    @Bean("sqlSessionFactory")
+    @Bean("mybatisSqlSession")
     public SqlSessionFactory sqlSessionFactory(@Qualifier("masterDataSource") DataSource master,
                                                @Qualifier("slaveDataSource") DataSource slave) throws Exception {
         MybatisSqlSessionFactoryBean sqlSessionFactory = new MybatisSqlSessionFactoryBean();
         sqlSessionFactory.setDataSource(this.dataSource(master,slave));
-        //sqlSessionFactory.setMapperLocations(new PathMatchingResourcePatternResolver().getResources("classpath:/mapper/*/*Mapper.xml"));
-
+//        sqlSessionFactory.setMapperLocations(new PathMatchingResourcePatternResolver().getResources("classpath:/mapper/*/*Mapper.xml"));
+        sqlSessionFactory.setMapperLocations(new  PathMatchingResourcePatternResolver().getResources(env.getProperty("mybatis-plus.mapper-locations")));
+//        sqlSessionFactory.setConfigLocation(new PathMatchingResourcePatternResolver().getResource(env.getProperty("mybatis-plus.config-location")) );
         MybatisConfiguration configuration = new MybatisConfiguration();
         //configuration.setDefaultScriptingLanguage(MybatisXMLLanguageDriver.class);
         configuration.setJdbcTypeForNull(JdbcType.NULL);
@@ -193,8 +198,8 @@ public class DataSourceConfig {
         GlobalConfiguration conf = new GlobalConfiguration(new LogicSqlInjector());
         conf.setLogicDeleteValue("-1");
         conf.setLogicNotDeleteValue("1");
-        conf.setIdType(0);
-//        conf.setMetaObjectHandler(new MyMetaObjectHandler());
+        conf.setIdType(2);
+        conf.setMetaObjectHandler(new MyMetaObjectHandler());
         conf.setDbColumnUnderline(true);
         conf.setRefresh(true);
         return conf;
@@ -205,4 +210,26 @@ public class DataSourceConfig {
     public DataSourceTransactionManager transactionManager(DynamicDataSource dataSource) throws Exception {
         return new DataSourceTransactionManager(dataSource);
     }
+
+    @Bean
+    public MetaObjectHandler metaObjectHandler(){
+        return new MyMetaObjectHandler();
+    }
+
+    /**
+     * 注入主键生成器
+     */
+    @Bean
+    public IKeyGenerator keyGenerator(){
+        return new H2KeyGenerator();
+    }
+
+    /**
+     * 注入sql注入器
+     */
+    @Bean
+    public ISqlInjector sqlInjector(){
+        return new LogicSqlInjector();
+    }
+
 }

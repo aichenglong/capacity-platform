@@ -13,7 +13,7 @@
         <appender-ref ref="STDOUT"/>
     </logger>
 
-    <logger name="com.capacity.platform" level="info" additivity="false">
+    <logger name="com.capacity.platform" level="debug" additivity="false">
         <appender-ref ref="STDOUT"/>
     </logger>
 

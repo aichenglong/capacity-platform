@@ -2,6 +2,7 @@ package com.capacity.platform.system.mapper;
 
 import com.capacity.platform.system.entity.SysUser;
 import com.baomidou.mybatisplus.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Select;
 
 /**
  * Author: Linux
@@ -16,5 +17,6 @@ public interface SysUserMapper extends BaseMapper<SysUser> {
      * @return
      */
 
+    @Select("findByUserName")
     SysUser findByUserName(String username);
 }

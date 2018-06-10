@@ -8,6 +8,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.web.FilterInvocation;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.Collection;
 import java.util.Iterator;
@@ -18,7 +19,7 @@ import java.util.Iterator;
  * Description:自定义决策器
  * Created by ACL on 2017/8/14.
  */
-@Component
+@Service
 public class CustomAccessDecisionManager implements AccessDecisionManager {
     /**
      * Resolves an access control decision for the passed parameters.

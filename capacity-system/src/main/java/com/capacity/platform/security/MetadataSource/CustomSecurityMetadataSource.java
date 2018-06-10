@@ -7,6 +7,7 @@ import org.springframework.security.web.access.intercept.FilterInvocationSecurit
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 import org.springframework.security.web.util.matcher.RequestMatcher;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
 import java.util.Collection;
@@ -18,7 +19,7 @@ import java.util.Map;
  * Description: 资源与权限的对应 (将所有的资源和权限对应关系建立起来，即定义某一资源可以被哪些角色访问)
  * Created by ACL on 2017/8/14.
  */
-@Component
+@Service
 public class CustomSecurityMetadataSource  implements FilterInvocationSecurityMetadataSource {
 
     @Autowired

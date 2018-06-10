@@ -1,12 +1,14 @@
 package com.capacity.platform.security.interceptor;
 
 import com.capacity.platform.security.AccessDecisionManager.CustomAccessDecisionManager;
+import com.capacity.platform.security.MetadataSource.CustomSecurityMetadataSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.SecurityMetadataSource;
 import org.springframework.security.access.intercept.AbstractSecurityInterceptor;
 import org.springframework.security.access.intercept.InterceptorStatusToken;
 import org.springframework.security.web.FilterInvocation;
 import org.springframework.security.web.access.intercept.FilterInvocationSecurityMetadataSource;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import javax.servlet.*;
@@ -22,10 +24,15 @@ import java.io.IOException;
 public class CustomFilterSecurityInterceptor extends AbstractSecurityInterceptor implements Filter {
 
     @Autowired
-    private FilterInvocationSecurityMetadataSource securityMetadataSource;
+    private CustomSecurityMetadataSource securityMetadataSource;
+
+
+
 
     @Autowired
-    private CustomAccessDecisionManager customAccessDecisionManager;
+    public void setCustomAccessDecisionManager(CustomAccessDecisionManager customAccessDecisionManager) {
+        super.setAccessDecisionManager(customAccessDecisionManager);
+    }
 
 
     @Override
