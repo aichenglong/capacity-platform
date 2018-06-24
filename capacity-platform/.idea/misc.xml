@@ -5,10 +5,14 @@
       <item index="0" class="java.lang.String" itemvalue="org.apache.ibatis.annotations.Select" />
     </list>
   </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <type id="Spring" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../capacity-oauth2/pom.xml" />
       </list>
     </option>
   </component>

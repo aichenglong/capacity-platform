@@ -25,7 +25,7 @@ import java.util.List;
 /**
  * Author: icl
  * Date:2018/06/02
- * Description: 自定义CustomS
+ * Description: 自定义CustomUserDetailsService
  * Created by icl on 2018/06/02.
  */
 @Component("customUserDetailsService")

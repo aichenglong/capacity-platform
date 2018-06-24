@@ -2,11 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="048b857b-c62f-4224-91d1-0025a9314949" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../capacity-system/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/config/ResourceServerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/controller/TestEndpoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/test/resources/templates/controller.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/test/resources/templates/controller.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/test/resources/templates/controller.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/test/resources/templates/controller_restful.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/test/resources/templates/entity.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/test/resources/templates/entity.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/test/resources/templates/entity.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/test/resources/templates/entity.kt.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/test/resources/templates/entity.kt.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/test/resources/templates/mapper.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/test/resources/templates/mapper.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/test/resources/templates/mapper.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/test/resources/templates/mapper.xml.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/test/resources/templates/mapper.xml.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/test/resources/templates/service.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/test/resources/templates/service.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/test/resources/templates/service.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/test/resources/templates/serviceImpl.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/test/resources/templates/serviceImpl.java.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../capacity-system/src/test/resources/templates/serviceImpl.java.vm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/capacity-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/capacity-system.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DataSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/handel/CustomAuthenticationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/handel/CustomAuthenticationSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/service/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/service/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../capacity-system/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../capacity-system/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../capacity-common/target/" />
     <ignored path="$PROJECT_DIR$/../capacity-system/target/" />
+    <ignored path="$PROJECT_DIR$/../capacity-oauth2/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,11 +75,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SysRoleMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysRoleMapper.xml">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+            <state relative-caret-position="374">
+              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application-dev.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/application-dev.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="banner.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/banner.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../capacity-system/Readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="68">
+                <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/config/WebSecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DelegatingPasswordEncoder.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE-sources.jar!/org/springframework/security/crypto/password/DelegatingPasswordEncoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3723">
+              <caret line="236" selection-start-line="236" selection-end-line="236" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../capacity-oauth2/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="779">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -47,64 +152,17 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../capacity-system/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="150" selection-start-line="150" selection-end-line="150" />
+            <state relative-caret-position="4471">
+              <caret line="263" selection-start-line="248" selection-end-line="263" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SysUserMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysUserMapper.xml">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../capacity-common/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SysUserMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../capacity-system/target/classes/mapper/SysUserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoggingEhcache.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/caches/mybatis-ehcache/1.0.3/mybatis-ehcache-1.0.3-sources.jar!/org/mybatis/caches/ehcache/LoggingEhcache.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-              <folding>
-                <element signature="e#926#927#0" expanded="true" />
-                <element signature="e#969#970#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataSourceConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DataSourceConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-260">
-              <caret line="182" column="34" selection-start-line="182" selection-start-column="34" selection-end-line="182" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application-prod.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/application-prod.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="2155">
+              <caret line="132" column="31" selection-start-line="132" selection-start-column="31" selection-end-line="132" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -141,6 +199,15 @@
       <find>sqlSessionFactory</find>
       <find>&quot;com.capacity.platform.system</find>
       <find>mybatis</find>
+      <find>tem</find>
+      <find>spring-security-oauth2</find>
+      <find>oauth2</find>
+      <find>mybatis-plu</find>
+      <find>accessTokenConverter</find>
+      <find>authenticationManagerBean</find>
+      <find>PasswordEncorder</find>
+      <find>pring-boot-maven-plugin</find>
+      <find>mysql</find>
     </findStrings>
     <replaceStrings>
       <replace>=</replace>
@@ -153,16 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/controller.ftl" />
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/controller.java.ftl" />
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/serviceImpl.ftl" />
-        <option value="$PROJECT_DIR$/../capacity-system/src/test/java/com/capacity/platform/SimpleMp.java" />
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/controller/SysMenuController.java" />
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/controller.java.vm" />
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/controller_restful.ftl" />
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/entity.java.ftl" />
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/entity.kt.ftl" />
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/entity.kt.vm" />
         <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/mapper.java.ftl" />
         <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/mapper.java.vm" />
         <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/templates/service.java.ftl" />
@@ -186,8 +243,6 @@
         <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/service/CustomSecurityMetadataSource.java" />
         <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/SysRoleService.java" />
         <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/MetadataSource/CustomSecurityContext.java" />
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/service/CustomUserDetailsService.java" />
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/MetadataSource/CustomSecurityMetadataSource.java" />
         <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/AccessDecisionManager/CustomAccessDecisionManager.java" />
         <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/interceptor/CustomFilterSecurityInterceptor.java" />
@@ -195,15 +250,27 @@
         <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysRoleMapper.xml" />
         <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/application-dev.properties" />
-        <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/MyMetaObjectHandler.java" />
         <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysRoleMapper.xml" />
         <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl/SysRoleServiceImpl.java" />
         <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysRoleMapper.java" />
-        <option value="$PROJECT_DIR$/../capacity-system/pom.xml" />
         <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysUserMapper.xml" />
         <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysUserMapper.xml" />
+        <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/handel/CustomAuthenticationSuccessHandler.java" />
+        <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/controller/UserController.java" />
         <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DataSourceConfig.java" />
+        <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/controller/TestEndpoints.java" />
+        <option value="$PROJECT_DIR$/../capacity-system/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/config/ResourceServerConfiguration.java" />
+        <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/service/CustomUserDetailsService.java" />
+        <option value="$PROJECT_DIR$/../capacity-system/Readme.md" />
+        <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/config/AuthorizationServerConfig.java" />
+        <option value="$PROJECT_DIR$/../capacity-system/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../capacity-common/pom.xml" />
+        <option value="$PROJECT_DIR$/../capacity-oauth2/pom.xml" />
       </list>
     </option>
   </component>
@@ -245,6 +312,15 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="capacity-oauth2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="capacity-oauth2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="capacity-platform" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -264,10 +340,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="853" />
-    <option name="y" value="87" />
-    <option name="width" value="1398" />
-    <option name="height" value="817" />
+    <option name="x" value="528" />
+    <option name="y" value="70" />
+    <option name="width" value="1392" />
+    <option name="height" value="791" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -275,13 +351,45 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
               <item name="capacity-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="capacity-oauth2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="capacity-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name=".mvn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="capacity-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name=".mvn" type="462c0819:PsiDirectoryNode" />
+              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="capacity-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="capacity-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
+              <item name="capacity-oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
@@ -302,96 +410,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="datasource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="platform" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="capacity-platform" type="b2602c69:ProjectViewProjectNode" />
-              <item name="capacity-system" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -404,25 +428,26 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../capacity-system/src/main/resources/mapper" />
-      <recent name="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.capacity.platform.system.mapper" />
+      <recent name="com.capacity.platform.config.anotation" />
+      <recent name="com.capacity.platform.common.entity" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.capacity.platform" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../capacity-system/src/test/resources" />
       <recent name="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper" />
       <recent name="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/service" />
       <recent name="$PROJECT_DIR$/../capacity-system/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$/../capacity-system/src/main/resources/mapper" />
-      <recent name="$PROJECT_DIR$/../capacity-common" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.capacity.platform" />
@@ -431,10 +456,9 @@
       <recent name="com.capacity.platform.system.entity" />
       <recent name="com.capacity.platform.system.controller" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.capacity.platform.system.mapper" />
-      <recent name="com.capacity.platform.config.anotation" />
-      <recent name="com.capacity.platform.common.entity" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../capacity-system/src/main/resources/mapper" />
+      <recent name="$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -462,6 +486,8 @@
       </extension>
     </configuration>
     <configuration name="SystemApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="/opt/soft/jdk1.8.0_171/jre" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.capacity.platform.SystemApplication" />
       <module name="capacity-system" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -548,6 +574,10 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="CapacityOauth2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="capacity-oauth2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.capacity.platform.oauth2.CapacityOauth2Application" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -571,11 +601,12 @@
       <listeners />
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.CapacityOauth2Application" />
       <item itemvalue="Application.SystemApplication" />
       <item itemvalue="Application.MpGenerator" />
+      <item itemvalue="Application.WebSecurityConfig" />
       <item itemvalue="JUnit.SimpleMp" />
       <item itemvalue="JUnit.SimpleMp.generateCode" />
-      <item itemvalue="Application.WebSecurityConfig" />
     </list>
     <recent_temporary>
       <list>
@@ -638,7 +669,16 @@
       <workItem from="1528213988353" duration="4294000" />
       <workItem from="1528300145642" duration="898000" />
       <workItem from="1528303382846" duration="29676000" />
-      <workItem from="1528567095909" duration="6950000" />
+      <workItem from="1528567095909" duration="8995000" />
+      <workItem from="1528638235105" duration="8525000" />
+      <workItem from="1528648984062" duration="2164000" />
+      <workItem from="1528651883574" duration="5676000" />
+      <workItem from="1528902671231" duration="2850000" />
+      <workItem from="1528986547186" duration="1111000" />
+      <workItem from="1528988991110" duration="2322000" />
+      <workItem from="1528991788252" duration="10907000" />
+      <workItem from="1529213517985" duration="105000" />
+      <workItem from="1529216369904" duration="5229000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1527690132188</created>
@@ -766,7 +806,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528624008526</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="修改mapper的配置 支持mapper.xml自定义位置">
+      <created>1528624058238</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1528624058238</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -802,7 +849,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132763000" />
+    <option name="totallyTimeSpent" value="173697000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -814,43 +861,45 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-11" width="1922" height="1025" extended-state="6" />
+    <frame x="0" y="-6" width="1920" height="1019" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="9" weight="0.32947975" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32752612" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3240418" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.329849" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.24334398" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.24332978" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.329849" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.30429733" />
       <window_info anchor="bottom" id="Spring" order="14" weight="0.32947975" />
-      <window_info anchor="bottom" id="Terminal" order="13" weight="0.2867052" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.2950058" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49906543" visible="true" weight="0.26040554" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49906543" visible="true" weight="0.28655282" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" sideWeight="0.49906892" weight="0.35502958" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32868758" />
       <window_info id="Learn" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.5009346" side_tool="true" weight="0.2529349" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24973376" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.3066202" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.44134727" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" x="0" y="0" width="430" height="817" id="Documentation" order="4" sideWeight="0.5009311" side_tool="true" visible="true" weight="0.25665602" />
+      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.329849" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.32947975" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32868758" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="2" />
@@ -967,8 +1016,20 @@
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE-sources.jar!/org/springframework/security/crypto/password/DelegatingPasswordEncoder.java</url>
+          <line>191</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE-sources.jar!/org/springframework/security/crypto/password/DelegatingPasswordEncoder.java</url>
+          <line>236</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="13" />
+      <option name="time" value="17" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -976,167 +1037,30 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysMenuMapper.xml">
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysUserMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysRoleMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="61" lean-forward="true" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+        <state relative-caret-position="561">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysUserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        <state relative-caret-position="187">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/SysRoleMenuService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DatabaseContextHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/SystemApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#601#602#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/service/CustomUserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.5.RELEASE/spring-security-web-5.0.5.RELEASE.jar!/org/springframework/security/web/access/intercept/FilterInvocationSecurityMetadataSource.class">
+    <entry file="file://$PROJECT_DIR$/../capacity-system/target/classes/mapper/SysUserMapper.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.5.RELEASE/spring-security-web-5.0.5.RELEASE-sources.jar!/org/springframework/security/web/access/intercept/FilterInvocationSecurityMetadataSource.java">
+    <entry file="file://$PROJECT_DIR$/../capacity-system/target/classes/banner.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="27" column="55" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="55" />
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/MetadataSource/CustomSecurityMetadataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/handel/CustomAuthenticationFailureHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/handel/CustomAuthenticationSuccessHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/AccessDecisionManager/CustomAccessDecisionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DataSourceAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/target/classes/mapper/SysRoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysRoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysMenuMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysRoleMenuMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/interceptor/CustomFilterSecurityInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysRoleMenuMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysUserRoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/TestMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysUserRoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1145,193 +1069,316 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/entity/SysRole.java">
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/test/java/com/capacity/platform/SimpleMp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="155">
+          <caret line="114" column="70" selection-start-line="114" selection-start-column="67" selection-end-line="114" selection-end-column="70" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd">
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/test/resources/templates/entity.ftl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/test/java/com/capacity/platform/MpGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3111">
-          <caret line="183" selection-start-line="183" selection-end-line="183" />
+        <state relative-caret-position="-1020">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-common/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatisplus-spring-boot-starter/1.0.5/mybatisplus-spring-boot-starter-1.0.5-sources.jar!/com/baomidou/mybatisplus/spring/boot/starter/MybatisPlusProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        <state relative-caret-position="285">
+          <caret line="96" column="16" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/MetadataSource/CustomSecurityContext.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.5.RELEASE/spring-security-web-5.0.5.RELEASE-sources.jar!/org/springframework/security/web/access/AccessDeniedHandlerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#947#948#0" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="183">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/MyMetaObjectHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysMenuMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/annotations/Select.java">
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/handel/CustomAuthenticationFailureHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/annotations/Select.class">
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/AccessDecisionManager/CustomAccessDecisionManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="-170">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/SysRoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/service/impl/SysRoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="91" selection-start-line="18" selection-start-column="91" selection-end-line="18" selection-end-column="91" />
-          <folding>
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysRoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/application-dev.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.5.RELEASE/spring-security-web-5.0.5.RELEASE-sources.jar!/org/springframework/security/web/access/AccessDeniedHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/application-prod.properties">
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/controller/SysUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="36" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.1.9/mybatis-plus-support-2.1.9-sources.jar!/com/baomidou/mybatisplus/service/IService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2108">
+          <caret line="144" column="12" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.3.RELEASE/spring-security-oauth2-2.3.3.RELEASE.jar!/org/springframework/security/oauth2/provider/authentication/OAuth2AuthenticationManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.3.RELEASE/spring-security-oauth2-2.3.3.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/web/configuration/AuthorizationServerEndpointsConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.3.RELEASE/spring-security-oauth2-2.3.3.RELEASE-sources.jar!/org/springframework/security/oauth2/config/annotation/web/configuration/AuthorizationServerEndpointsConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE-sources.jar!/org/springframework/security/authentication/AuthenticationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.3.RELEASE/spring-security-oauth2-2.3.3.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/authentication/OAuth2AuthenticationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.3.RELEASE/spring-security-oauth2-2.3.3.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/token/store/JwtAccessTokenConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2669">
+          <caret line="192" selection-start-line="192" selection-end-line="192" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/web/controller/TestEndpoints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/handel/CustomAuthenticationSuccessHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.10.RELEASE/spring-security-oauth2-2.0.10.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/web/configuration/ResourceServerConfigurerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.10.RELEASE/spring-security-oauth2-2.0.10.RELEASE-sources.jar!/org/springframework/security/oauth2/config/annotation/web/configuration/ResourceServerConfigurerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.10.RELEASE/spring-security-oauth2-2.0.10.RELEASE-sources.jar!/org/springframework/security/oauth2/config/annotation/web/configuration/ResourceServerConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="40" selection-start-line="40" selection-end-line="47" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/Qualifier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/service/CustomUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/ConstructorResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9027">
+          <caret line="586" selection-start-line="586" selection-end-line="586" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/SystemApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hs_err_pid7091.log" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.4.RELEASE/spring-security-config-5.0.4.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="249" column="33" selection-start-line="249" selection-start-column="33" selection-end-line="249" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.10.RELEASE/spring-security-oauth2-2.0.10.RELEASE-sources.jar!/org/springframework/security/oauth2/config/annotation/web/configurers/AuthorizationServerEndpointsConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="322" column="50" selection-start-line="322" selection-start-column="50" selection-end-line="322" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.10.RELEASE/spring-security-oauth2-2.0.10.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/error/OAuth2AccessDeniedHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/config/ResourceServerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="50" column="75" selection-start-line="50" selection-start-column="75" selection-end-line="50" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/config/AuthorizationServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/security/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.4.RELEASE/spring-security-core-5.0.4.RELEASE-sources.jar!/org/springframework/security/crypto/password/DelegatingPasswordEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3723">
+          <caret line="236" selection-start-line="236" selection-end-line="236" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../capacity-system/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="150" selection-start-line="150" selection-end-line="150" />
+        <state relative-caret-position="4471">
+          <caret line="263" selection-start-line="248" selection-end-line="263" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/caches/mybatis-ehcache/1.0.3/mybatis-ehcache-1.0.3.jar!/org/mybatis/caches/ehcache/LoggingEhcache.class">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-oauth2/src/test/java/com/capacity/platform/oauth2/CapacityOauth2ApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/caches/mybatis-ehcache/1.0.3/mybatis-ehcache-1.0.3-sources.jar!/org/mybatis/caches/ehcache/LoggingEhcache.java">
+    <entry file="file://$PROJECT_DIR$/../capacity-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-          <folding>
-            <element signature="e#926#927#0" expanded="true" />
-            <element signature="e#969#970#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2155">
+          <caret line="132" column="31" selection-start-line="132" selection-start-column="31" selection-end-line="132" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysRoleMenuMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysRoleMapper.xml">
+    <entry file="file://$PROJECT_DIR$/../capacity-oauth2/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysMenuMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/system/mapper/SysUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysRoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/mapper/SysUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/target/classes/mapper/SysUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/java/com/capacity/platform/datasource/DataSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-260">
-          <caret line="182" column="34" selection-start-line="182" selection-start-column="34" selection-end-line="182" selection-end-column="34" />
+        <state relative-caret-position="779">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" selection-start-line="27" selection-end-line="27" selection-end-column="28" />
+        <state relative-caret-position="374">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/src/main/resources/banner.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../capacity-system/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="68">
+            <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1387,7 +1434,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>capacity-system</last-edited>
+          <last-edited>capacity-platform</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1400,7 +1447,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

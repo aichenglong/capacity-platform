@@ -7,13 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="capacity-common" />
+        <module name="capacity-oauth2" />
         <module name="capacity-system" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="capacity-common" target="8" />
+      <module name="capacity-common" target="1.8" />
+      <module name="capacity-oauth2" target="1.8" />
       <module name="capacity-platform" target="1.5" />
       <module name="capacity-system" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="PREFER_TARGET_JDK_COMPILER" value="false" />
   </component>
 </project>

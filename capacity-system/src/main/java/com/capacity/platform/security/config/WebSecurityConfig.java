@@ -1,34 +1,37 @@
 package com.capacity.platform.security.config;
 
-import com.capacity.platform.security.handel.CustomAuthenticationFailureHandler;
 import com.capacity.platform.security.interceptor.CustomFilterSecurityInterceptor;
 import com.capacity.platform.security.service.CustomUserDetailsService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.dao.DaoAuthenticationProvider;
-import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.factory.PasswordEncoderFactories;
+import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.security.web.access.intercept.FilterSecurityInterceptor;
+import org.springframework.web.cors.CorsConfiguration;
+import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+import org.springframework.web.filter.CorsFilter;
 
 /**
  * Author: icl
  * Date:2018/06/02
- * Description:
+ * Description: 权限配置
  * Created by icl on 2018/06/02.
  */
 @Configuration
 @EnableWebSecurity
-@EnableGlobalMethodSecurity(prePostEnabled = true) //开启security注解
 public class WebSecurityConfig  extends WebSecurityConfigurerAdapter {
 
     public   static Logger log=LoggerFactory.getLogger(WebSecurityConfig.class);
@@ -47,6 +50,9 @@ public class WebSecurityConfig  extends WebSecurityConfigurerAdapter {
 //    @Autowired
 //    private CustomAuthenticationFailureHandler customAuthenticationFailureHandler;
 
+//    @Autowired
+//    private RedisConnectionFactory redisConnection;
+//
 
 
     @Autowired
@@ -86,21 +92,7 @@ public class WebSecurityConfig  extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
 
         http.sessionManagement().sessionFixation().none();
-
-        http.authorizeRequests()
-                .antMatchers(new String("/find/**"),"/sys/**","/system/**")
-                .permitAll()
-                .anyRequest().authenticated() //任何请求,登录后可以访问
-                .and()
-//                .formLogin()
-//                .loginPage("/login")
-//                .failureUrl("/login?error")
-//                .permitAll() //登录页面用户任意访问
-//                .and()
-                .logout().permitAll(); //注销行为任意访问
-
-
-        http.authorizeRequests().
+        http.csrf().disable().authorizeRequests().
                 antMatchers( "/js/**", "/css/**", "/bootstrap/**", "/img/**", "/static/**", "/h2/**")
                 .permitAll().anyRequest().authenticated()
                 .and().headers().frameOptions().disable() //headers
@@ -111,10 +103,28 @@ public class WebSecurityConfig  extends WebSecurityConfigurerAdapter {
                 .and().csrf().disable();
 
 
-        http.addFilterBefore(customFilterSecurityInterceptor,FilterSecurityInterceptor.class);
+//        http.addFilterBefore(customFilterSecurityInterceptor,FilterSecurityInterceptor.class);
 
 
     }
+
+    @Override
+    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+        auth.userDetailsService(customUserDetailsService).passwordEncoder(passwordEncoder());
+    }
+
+    //配置全局设置
+    @Autowired
+    public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
+        //设置UserDetailsService以及密码规则
+        auth.userDetailsService(customUserDetailsService).passwordEncoder(passwordEncoder());
+    }
+    @Override
+    @Bean
+    public AuthenticationManager authenticationManagerBean() throws Exception {
+        return super.authenticationManagerBean();
+    }
+
 
     @Bean
     public AuthenticationProvider authenticationProvider() {
@@ -134,6 +144,32 @@ public class WebSecurityConfig  extends WebSecurityConfigurerAdapter {
     public PasswordEncoder passwordEncoder() {
         return  PasswordEncoderFactories.createDelegatingPasswordEncoder();
 
+    }
+
+
+    @Autowired
+    public void globalUserDetails(AuthenticationManagerBuilder auth) throws Exception {
+        auth.userDetailsService(customUserDetailsService)
+                .passwordEncoder(passwordEncoder());
+    }
+   /* @Bean
+    public TokenStore tokenStore() {
+        return new RedisTokenStore(redisConnection);
+    }
+*/
+
+    @Bean
+    public FilterRegistrationBean corsFilter() {
+        UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
+        CorsConfiguration config = new CorsConfiguration();
+        config.setAllowCredentials(true);
+        config.addAllowedOrigin("*");
+        config.addAllowedHeader("*");
+        config.addAllowedMethod("*");
+        source.registerCorsConfiguration("/**", config);
+        FilterRegistrationBean bean = new FilterRegistrationBean(new CorsFilter(source));
+        bean.setOrder(0);
+        return bean;
     }
 
     public static void main(String[] args) {

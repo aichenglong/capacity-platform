@@ -105,7 +105,7 @@ public class DataSourceConfig {
         dataSource.setInitialSize(5);
         dataSource.setMinIdle(5);
         dataSource.setMaxActive(100);
-        dataSource.setMaxWait(60000);
+        dataSource.setMaxWait(600000);
         dataSource.setTimeBetweenEvictionRunsMillis(60000);
         dataSource.setMinEvictableIdleTimeMillis(300000);
         dataSource.setValidationQuery("SELECT 'x'");
